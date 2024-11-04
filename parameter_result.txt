@@ -1,0 +1,2009 @@
+break load img
+/home/sophie/anaconda3/envs/gps/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/sophie/anaconda3/envs/gps/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Iteration [1/800], Loss: 455945.3906
+Iteration [101/800], Loss: 87698.7936
+Iteration [201/800], Loss: 44074.6111
+Iteration [301/800], Loss: 29433.9602
+Iteration [401/800], Loss: 22095.2528
+Iteration [501/800], Loss: 17686.2067
+Iteration [601/800], Loss: 14744.5075
+Iteration [701/800], Loss: 12642.0340
+**Epoch [1/200], Loss: 11078.2887
+
+Iteration [1/800], Loss: 9.7751
+Iteration [101/800], Loss: 5.5791
+Iteration [201/800], Loss: 5.5993
+Iteration [301/800], Loss: 5.4706
+Iteration [401/800], Loss: 5.5335
+Iteration [501/800], Loss: 5.5384
+Iteration [601/800], Loss: 5.6117
+Iteration [701/800], Loss: 5.6704
+**Epoch [2/200], Loss: 5.6771
+
+Iteration [1/800], Loss: 10.9997
+Iteration [101/800], Loss: 5.6241
+Iteration [201/800], Loss: 5.5277
+Iteration [301/800], Loss: 5.3865
+Iteration [401/800], Loss: 5.3437
+Iteration [501/800], Loss: 5.3244
+Iteration [601/800], Loss: 5.4021
+Iteration [701/800], Loss: 5.4931
+**Epoch [3/200], Loss: 5.5776
+
+Iteration [1/800], Loss: 8.6238
+Iteration [101/800], Loss: 6.1873
+Iteration [201/800], Loss: 6.1540
+Iteration [301/800], Loss: 6.0522
+Iteration [401/800], Loss: 5.8802
+Iteration [501/800], Loss: 5.8536
+Iteration [601/800], Loss: 5.8493
+Iteration [701/800], Loss: 5.8132
+**Epoch [4/200], Loss: 5.8699
+
+Iteration [1/800], Loss: 9.6982
+Iteration [101/800], Loss: 6.0926
+Iteration [201/800], Loss: 6.0664
+Iteration [301/800], Loss: 6.0008
+Iteration [401/800], Loss: 5.9030
+Iteration [501/800], Loss: 5.9801
+Iteration [601/800], Loss: 5.8467
+Iteration [701/800], Loss: 5.7053
+**Epoch [5/200], Loss: 5.6739
+
+Iteration [1/800], Loss: 11.7028
+Iteration [101/800], Loss: 4.9494
+Iteration [201/800], Loss: 5.1424
+Iteration [301/800], Loss: 5.3157
+Iteration [401/800], Loss: 5.4206
+Iteration [501/800], Loss: 5.4441
+Iteration [601/800], Loss: 7.7543
+Iteration [701/800], Loss: 7.7703
+**Epoch [6/200], Loss: 7.8766
+
+Iteration [1/800], Loss: 12.5454
+Iteration [101/800], Loss: 6.1213
+Iteration [201/800], Loss: 5.9988
+Iteration [301/800], Loss: 6.0884
+Iteration [401/800], Loss: 5.8890
+Iteration [501/800], Loss: 5.7635
+Iteration [601/800], Loss: 5.8096
+Iteration [701/800], Loss: 5.6496
+**Epoch [7/200], Loss: 5.6453
+
+Iteration [1/800], Loss: 6.8818
+Iteration [101/800], Loss: 4.4344
+Iteration [201/800], Loss: 5.3151
+Iteration [301/800], Loss: 5.1210
+Iteration [401/800], Loss: 4.9332
+Iteration [501/800], Loss: 4.8892
+Iteration [601/800], Loss: 4.7695
+Iteration [701/800], Loss: 4.7436
+**Epoch [8/200], Loss: 4.6985
+
+Iteration [1/800], Loss: 16.9893
+Iteration [101/800], Loss: 5.3133
+Iteration [201/800], Loss: 5.3176
+Iteration [301/800], Loss: 5.0613
+Iteration [401/800], Loss: 5.0095
+Iteration [501/800], Loss: 4.9527
+Iteration [601/800], Loss: 4.8356
+Iteration [701/800], Loss: 4.7936
+**Epoch [9/200], Loss: 4.7299
+
+Iteration [1/800], Loss: 10.9198
+Iteration [101/800], Loss: 5.1722
+Iteration [201/800], Loss: 4.8153
+Iteration [301/800], Loss: 4.4544
+Iteration [401/800], Loss: 4.8254
+Iteration [501/800], Loss: 4.7675
+Iteration [601/800], Loss: 4.7138
+Iteration [701/800], Loss: 4.7279
+**Epoch [10/200], Loss: 4.6288
+
+Iteration [1/800], Loss: 6.3566
+Iteration [101/800], Loss: 5.4514
+Iteration [201/800], Loss: 5.1789
+Iteration [301/800], Loss: 5.0086
+Iteration [401/800], Loss: 5.0402
+Iteration [501/800], Loss: 4.9783
+Iteration [601/800], Loss: 4.7223
+Iteration [701/800], Loss: 4.6810
+**Epoch [11/200], Loss: 4.5259
+
+Iteration [1/800], Loss: 2.9634
+Iteration [101/800], Loss: 3.9402
+Iteration [201/800], Loss: 4.0813
+Iteration [301/800], Loss: 3.9966
+Iteration [401/800], Loss: 3.7421
+Iteration [501/800], Loss: 3.9678
+Iteration [601/800], Loss: 3.7665
+Iteration [701/800], Loss: 3.6500
+**Epoch [12/200], Loss: 3.5990
+
+Iteration [1/800], Loss: 9.4435
+Iteration [101/800], Loss: 3.2240
+Iteration [201/800], Loss: 3.2634
+Iteration [301/800], Loss: 3.3660
+Iteration [401/800], Loss: 3.5995
+Iteration [501/800], Loss: 3.6976
+Iteration [601/800], Loss: 3.6785
+Iteration [701/800], Loss: 3.6334
+**Epoch [13/200], Loss: 3.6518
+
+Iteration [1/800], Loss: 22.9723
+Iteration [101/800], Loss: 5.1498
+Iteration [201/800], Loss: 4.2064
+Iteration [301/800], Loss: 4.0199
+Iteration [401/800], Loss: 3.6886
+Iteration [501/800], Loss: 3.7891
+Iteration [601/800], Loss: 3.6905
+Iteration [701/800], Loss: 3.4944
+**Epoch [14/200], Loss: 3.4680
+
+Iteration [1/800], Loss: 7.0068
+Iteration [101/800], Loss: 2.5305
+Iteration [201/800], Loss: 2.8632
+Iteration [301/800], Loss: 2.9037
+Iteration [401/800], Loss: 2.8099
+Iteration [501/800], Loss: 2.8209
+Iteration [601/800], Loss: 2.8630
+Iteration [701/800], Loss: 2.8475
+**Epoch [15/200], Loss: 2.8865
+
+Iteration [1/800], Loss: 11.9503
+Iteration [101/800], Loss: 4.8909
+Iteration [201/800], Loss: 3.8316
+Iteration [301/800], Loss: 3.3174
+Iteration [401/800], Loss: 3.1425
+Iteration [501/800], Loss: 3.0107
+Iteration [601/800], Loss: 2.9442
+Iteration [701/800], Loss: 2.9181
+**Epoch [16/200], Loss: 2.7934
+
+Iteration [1/800], Loss: 3.0096
+Iteration [101/800], Loss: 2.0101
+Iteration [201/800], Loss: 3.0732
+Iteration [301/800], Loss: 2.9744
+Iteration [401/800], Loss: 2.9857
+Iteration [501/800], Loss: 3.0120
+Iteration [601/800], Loss: 2.9745
+Iteration [701/800], Loss: 2.8794
+**Epoch [17/200], Loss: 2.7624
+
+Iteration [1/800], Loss: 2.7712
+Iteration [101/800], Loss: 3.5270
+Iteration [201/800], Loss: 2.8178
+Iteration [301/800], Loss: 2.6589
+Iteration [401/800], Loss: 2.6871
+Iteration [501/800], Loss: 2.8612
+Iteration [601/800], Loss: 2.8045
+Iteration [701/800], Loss: 2.6864
+**Epoch [18/200], Loss: 2.5811
+
+Iteration [1/800], Loss: 1.9279
+Iteration [101/800], Loss: 2.6083
+Iteration [201/800], Loss: 2.5160
+Iteration [301/800], Loss: 2.5563
+Iteration [401/800], Loss: 2.3805
+Iteration [501/800], Loss: 2.1982
+Iteration [601/800], Loss: 2.0917
+Iteration [701/800], Loss: 2.0792
+**Epoch [19/200], Loss: 2.0336
+
+Iteration [1/800], Loss: 3.4585
+Iteration [101/800], Loss: 2.0648
+Iteration [201/800], Loss: 2.9708
+Iteration [301/800], Loss: 2.6514
+Iteration [401/800], Loss: 2.6182
+Iteration [501/800], Loss: 2.9549
+Iteration [601/800], Loss: 2.8129
+Iteration [701/800], Loss: 2.7188
+**Epoch [20/200], Loss: 2.6537
+
+Iteration [1/800], Loss: 5.2067
+Iteration [101/800], Loss: 1.9126
+Iteration [201/800], Loss: 1.6467
+Iteration [301/800], Loss: 1.6460
+Iteration [401/800], Loss: 1.7306
+Iteration [501/800], Loss: 1.7345
+Iteration [601/800], Loss: 1.6450
+Iteration [701/800], Loss: 1.6997
+**Epoch [21/200], Loss: 1.6611
+
+Iteration [1/800], Loss: 2.9029
+Iteration [101/800], Loss: 1.1937
+Iteration [201/800], Loss: 2.0806
+Iteration [301/800], Loss: 1.9157
+Iteration [401/800], Loss: 1.7139
+Iteration [501/800], Loss: 1.5720
+Iteration [601/800], Loss: 1.5378
+Iteration [701/800], Loss: 1.5319
+**Epoch [22/200], Loss: 1.5590
+
+Iteration [1/800], Loss: 2.0357
+Iteration [101/800], Loss: 1.6224
+Iteration [201/800], Loss: 1.9519
+Iteration [301/800], Loss: 1.9903
+Iteration [401/800], Loss: 2.6517
+Iteration [501/800], Loss: 2.5739
+Iteration [601/800], Loss: 2.3998
+Iteration [701/800], Loss: 2.2714
+**Epoch [23/200], Loss: 2.1535
+
+Iteration [1/800], Loss: 4.0731
+Iteration [101/800], Loss: 1.4767
+Iteration [201/800], Loss: 1.3372
+Iteration [301/800], Loss: 1.3209
+Iteration [401/800], Loss: 1.4100
+Iteration [501/800], Loss: 1.4079
+Iteration [601/800], Loss: 1.3883
+Iteration [701/800], Loss: 1.3845
+**Epoch [24/200], Loss: 1.3735
+
+Iteration [1/800], Loss: 1.4481
+Iteration [101/800], Loss: 1.7582
+Iteration [201/800], Loss: 1.7952
+Iteration [301/800], Loss: 1.7864
+Iteration [401/800], Loss: 1.5919
+Iteration [501/800], Loss: 1.6048
+Iteration [601/800], Loss: 1.6752
+Iteration [701/800], Loss: 1.7062
+**Epoch [25/200], Loss: 1.6244
+
+Iteration [1/800], Loss: 2.7224
+Iteration [101/800], Loss: 0.6938
+Iteration [201/800], Loss: 0.7156
+Iteration [301/800], Loss: 0.8599
+Iteration [401/800], Loss: 1.1200
+Iteration [501/800], Loss: 1.2374
+Iteration [601/800], Loss: 1.2043
+Iteration [701/800], Loss: 1.1637
+**Epoch [26/200], Loss: 1.2981
+
+Iteration [1/800], Loss: 5.8720
+Iteration [101/800], Loss: 1.1054
+Iteration [201/800], Loss: 1.1032
+Iteration [301/800], Loss: 1.5249
+Iteration [401/800], Loss: 1.3817
+Iteration [501/800], Loss: 1.3323
+Iteration [601/800], Loss: 1.4057
+Iteration [701/800], Loss: 1.3670
+**Epoch [27/200], Loss: 1.3607
+
+Iteration [1/800], Loss: 0.8429
+Iteration [101/800], Loss: 0.5798
+Iteration [201/800], Loss: 0.8613
+Iteration [301/800], Loss: 1.0032
+Iteration [401/800], Loss: 1.1222
+Iteration [501/800], Loss: 1.8463
+Iteration [601/800], Loss: 1.8311
+Iteration [701/800], Loss: 1.7446
+**Epoch [28/200], Loss: 1.6078
+
+Iteration [1/800], Loss: 2.9778
+Iteration [101/800], Loss: 1.3720
+Iteration [201/800], Loss: 1.2613
+Iteration [301/800], Loss: 1.3893
+Iteration [401/800], Loss: 1.2891
+Iteration [501/800], Loss: 1.1657
+Iteration [601/800], Loss: 1.1081
+Iteration [701/800], Loss: 1.1899
+**Epoch [29/200], Loss: 1.3745
+
+Iteration [1/800], Loss: 4.5657
+Iteration [101/800], Loss: 1.2016
+Iteration [201/800], Loss: 1.2783
+Iteration [301/800], Loss: 1.2817
+Iteration [401/800], Loss: 1.1764
+Iteration [501/800], Loss: 1.1701
+Iteration [601/800], Loss: 1.1233
+Iteration [701/800], Loss: 1.1586
+**Epoch [30/200], Loss: 1.1285
+
+Iteration [1/800], Loss: 4.4342
+Iteration [101/800], Loss: 0.8357
+Iteration [201/800], Loss: 0.6993
+Iteration [301/800], Loss: 0.6392
+Iteration [401/800], Loss: 0.6482
+Iteration [501/800], Loss: 0.6485
+Iteration [601/800], Loss: 0.7970
+Iteration [701/800], Loss: 0.8364
+**Epoch [31/200], Loss: 0.8363
+
+Iteration [1/800], Loss: 1.4052
+Iteration [101/800], Loss: 0.6954
+Iteration [201/800], Loss: 0.6591
+Iteration [301/800], Loss: 0.6573
+Iteration [401/800], Loss: 0.6354
+Iteration [501/800], Loss: 0.7377
+Iteration [601/800], Loss: 0.7492
+Iteration [701/800], Loss: 0.7480
+**Epoch [32/200], Loss: 0.7656
+
+Iteration [1/800], Loss: 9.1447
+Iteration [101/800], Loss: 1.3577
+Iteration [201/800], Loss: 1.0302
+Iteration [301/800], Loss: 0.9011
+Iteration [401/800], Loss: 0.9293
+Iteration [501/800], Loss: 1.0318
+Iteration [601/800], Loss: 1.2940
+Iteration [701/800], Loss: 1.2032
+**Epoch [33/200], Loss: 1.0972
+
+Iteration [1/800], Loss: 0.3963
+Iteration [101/800], Loss: 0.4544
+Iteration [201/800], Loss: 0.4270
+Iteration [301/800], Loss: 0.9195
+Iteration [401/800], Loss: 0.9730
+Iteration [501/800], Loss: 0.9364
+Iteration [601/800], Loss: 0.9124
+Iteration [701/800], Loss: 0.8674
+**Epoch [34/200], Loss: 0.8545
+
+Iteration [1/800], Loss: 1.9514
+Iteration [101/800], Loss: 0.5532
+Iteration [201/800], Loss: 0.4833
+Iteration [301/800], Loss: 0.4862
+Iteration [401/800], Loss: 0.4701
+Iteration [501/800], Loss: 0.4430
+Iteration [601/800], Loss: 0.4945
+Iteration [701/800], Loss: 0.5671
+**Epoch [35/200], Loss: 0.5695
+
+Iteration [1/800], Loss: 1.0476
+Iteration [101/800], Loss: 1.1757
+Iteration [201/800], Loss: 0.8758
+Iteration [301/800], Loss: 0.7358
+Iteration [401/800], Loss: 0.6713
+Iteration [501/800], Loss: 0.6187
+Iteration [601/800], Loss: 0.5898
+Iteration [701/800], Loss: 0.5700
+**Epoch [36/200], Loss: 0.5847
+
+Iteration [1/800], Loss: 1.2169
+Iteration [101/800], Loss: 4.1941
+Iteration [201/800], Loss: 3.4842
+Iteration [301/800], Loss: 2.5500
+Iteration [401/800], Loss: 2.1402
+Iteration [501/800], Loss: 1.8187
+Iteration [601/800], Loss: 1.5809
+Iteration [701/800], Loss: 1.4351
+**Epoch [37/200], Loss: 1.3255
+
+Iteration [1/800], Loss: 4.7002
+Iteration [101/800], Loss: 0.7667
+Iteration [201/800], Loss: 0.7073
+Iteration [301/800], Loss: 0.7640
+Iteration [401/800], Loss: 0.7665
+Iteration [501/800], Loss: 0.7508
+Iteration [601/800], Loss: 0.8142
+Iteration [701/800], Loss: 0.8234
+**Epoch [38/200], Loss: 0.7632
+
+Iteration [1/800], Loss: 0.5138
+Iteration [101/800], Loss: 0.3360
+Iteration [201/800], Loss: 0.3530
+Iteration [301/800], Loss: 0.3759
+Iteration [401/800], Loss: 0.4154
+Iteration [501/800], Loss: 0.4836
+Iteration [601/800], Loss: 0.5528
+Iteration [701/800], Loss: 0.6107
+**Epoch [39/200], Loss: 0.6196
+
+Iteration [1/800], Loss: 0.6958
+Iteration [101/800], Loss: 0.4310
+Iteration [201/800], Loss: 0.4230
+Iteration [301/800], Loss: 0.3889
+Iteration [401/800], Loss: 0.4425
+Iteration [501/800], Loss: 0.7820
+Iteration [601/800], Loss: 0.8951
+Iteration [701/800], Loss: 0.8589
+**Epoch [40/200], Loss: 0.8001
+
+Iteration [1/800], Loss: 0.6595
+Iteration [101/800], Loss: 0.5991
+Iteration [201/800], Loss: 0.5384
+Iteration [301/800], Loss: 0.4728
+Iteration [401/800], Loss: 0.4246
+Iteration [501/800], Loss: 0.3995
+Iteration [601/800], Loss: 0.3957
+Iteration [701/800], Loss: 0.3760
+**Epoch [41/200], Loss: 0.3649
+
+Iteration [1/800], Loss: 1.0177
+Iteration [101/800], Loss: 0.5070
+Iteration [201/800], Loss: 0.4253
+Iteration [301/800], Loss: 0.5216
+Iteration [401/800], Loss: 0.4898
+Iteration [501/800], Loss: 0.4781
+Iteration [601/800], Loss: 0.4847
+Iteration [701/800], Loss: 0.4684
+**Epoch [42/200], Loss: 0.5881
+
+Iteration [1/800], Loss: 3.9952
+Iteration [101/800], Loss: 0.7236
+Iteration [201/800], Loss: 0.5535
+Iteration [301/800], Loss: 0.6730
+Iteration [401/800], Loss: 0.6490
+Iteration [501/800], Loss: 0.6630
+Iteration [601/800], Loss: 0.6394
+Iteration [701/800], Loss: 0.6606
+**Epoch [43/200], Loss: 0.6532
+
+Iteration [1/800], Loss: 0.6050
+Iteration [101/800], Loss: 0.5070
+Iteration [201/800], Loss: 0.7388
+Iteration [301/800], Loss: 0.6337
+Iteration [401/800], Loss: 0.5520
+Iteration [501/800], Loss: 0.4887
+Iteration [601/800], Loss: 0.4574
+Iteration [701/800], Loss: 0.4421
+**Epoch [44/200], Loss: 0.4425
+
+Iteration [1/800], Loss: 0.7799
+Iteration [101/800], Loss: 0.2263
+Iteration [201/800], Loss: 0.4273
+Iteration [301/800], Loss: 0.5873
+Iteration [401/800], Loss: 0.6596
+Iteration [501/800], Loss: 0.6061
+Iteration [601/800], Loss: 0.5594
+Iteration [701/800], Loss: 0.5740
+**Epoch [45/200], Loss: 0.5807
+
+Iteration [1/800], Loss: 1.3291
+Iteration [101/800], Loss: 0.5661
+Iteration [201/800], Loss: 0.5121
+Iteration [301/800], Loss: 0.5690
+Iteration [401/800], Loss: 0.5222
+Iteration [501/800], Loss: 0.5729
+Iteration [601/800], Loss: 0.5465
+Iteration [701/800], Loss: 0.5212
+**Epoch [46/200], Loss: 0.5090
+
+Iteration [1/800], Loss: 2.0583
+Iteration [101/800], Loss: 0.5683
+Iteration [201/800], Loss: 1.1165
+Iteration [301/800], Loss: 0.9032
+Iteration [401/800], Loss: 0.8016
+Iteration [501/800], Loss: 0.7146
+Iteration [601/800], Loss: 0.6814
+Iteration [701/800], Loss: 0.6182
+**Epoch [47/200], Loss: 0.5700
+
+Iteration [1/800], Loss: 0.7293
+Iteration [101/800], Loss: 0.9684
+Iteration [201/800], Loss: 0.8500
+Iteration [301/800], Loss: 0.7641
+Iteration [401/800], Loss: 0.7635
+Iteration [501/800], Loss: 0.6812
+Iteration [601/800], Loss: 0.6797
+Iteration [701/800], Loss: 0.6482
+**Epoch [48/200], Loss: 0.6292
+
+Iteration [1/800], Loss: 0.9193
+Iteration [101/800], Loss: 0.2485
+Iteration [201/800], Loss: 0.3012
+Iteration [301/800], Loss: 0.3060
+Iteration [401/800], Loss: 0.3515
+Iteration [501/800], Loss: 0.3841
+Iteration [601/800], Loss: 0.4877
+Iteration [701/800], Loss: 0.5073
+**Epoch [49/200], Loss: 0.4866
+
+Iteration [1/800], Loss: 0.4912
+Iteration [101/800], Loss: 0.3514
+Iteration [201/800], Loss: 0.4784
+Iteration [301/800], Loss: 0.5331
+Iteration [401/800], Loss: 0.5412
+Iteration [501/800], Loss: 0.5092
+Iteration [601/800], Loss: 0.4670
+Iteration [701/800], Loss: 0.4716
+**Epoch [50/200], Loss: 0.4723
+
+Iteration [1/800], Loss: 5.1047
+Iteration [101/800], Loss: 1.3332
+Iteration [201/800], Loss: 1.0106
+Iteration [301/800], Loss: 0.8374
+Iteration [401/800], Loss: 0.6738
+Iteration [501/800], Loss: 0.5668
+Iteration [601/800], Loss: 0.5404
+Iteration [701/800], Loss: 0.5562
+**Epoch [51/200], Loss: 0.5643
+
+Iteration [1/800], Loss: 1.3473
+Iteration [101/800], Loss: 0.4680
+Iteration [201/800], Loss: 0.3378
+Iteration [301/800], Loss: 0.3076
+Iteration [401/800], Loss: 0.2762
+Iteration [501/800], Loss: 0.2566
+Iteration [601/800], Loss: 0.2496
+Iteration [701/800], Loss: 0.2760
+**Epoch [52/200], Loss: 0.3368
+
+Iteration [1/800], Loss: 1.3817
+Iteration [101/800], Loss: 0.5272
+Iteration [201/800], Loss: 0.4068
+Iteration [301/800], Loss: 0.3444
+Iteration [401/800], Loss: 0.3559
+Iteration [501/800], Loss: 0.3404
+Iteration [601/800], Loss: 0.3350
+Iteration [701/800], Loss: 0.3652
+**Epoch [53/200], Loss: 0.3873
+
+Iteration [1/800], Loss: 0.6198
+Iteration [101/800], Loss: 1.1866
+Iteration [201/800], Loss: 0.9729
+Iteration [301/800], Loss: 0.7574
+Iteration [401/800], Loss: 0.6232
+Iteration [501/800], Loss: 0.5757
+Iteration [601/800], Loss: 0.5338
+Iteration [701/800], Loss: 0.4871
+**Epoch [54/200], Loss: 0.5313
+
+Iteration [1/800], Loss: 9.0221
+Iteration [101/800], Loss: 1.7151
+Iteration [201/800], Loss: 0.9929
+Iteration [301/800], Loss: 0.7225
+Iteration [401/800], Loss: 0.5897
+Iteration [501/800], Loss: 0.5161
+Iteration [601/800], Loss: 0.4763
+Iteration [701/800], Loss: 0.4505
+**Epoch [55/200], Loss: 0.4265
+
+Iteration [1/800], Loss: 0.5543
+Iteration [101/800], Loss: 0.3229
+Iteration [201/800], Loss: 0.4255
+Iteration [301/800], Loss: 0.3723
+Iteration [401/800], Loss: 0.4135
+Iteration [501/800], Loss: 0.5140
+Iteration [601/800], Loss: 0.5466
+Iteration [701/800], Loss: 0.5465
+**Epoch [56/200], Loss: 0.5527
+
+Iteration [1/800], Loss: 0.3240
+Iteration [101/800], Loss: 0.2989
+Iteration [201/800], Loss: 0.2209
+Iteration [301/800], Loss: 0.2085
+Iteration [401/800], Loss: 0.2205
+Iteration [501/800], Loss: 0.2208
+Iteration [601/800], Loss: 0.2217
+Iteration [701/800], Loss: 0.2606
+**Epoch [57/200], Loss: 0.3148
+
+Iteration [1/800], Loss: 4.5032
+Iteration [101/800], Loss: 1.1028
+Iteration [201/800], Loss: 0.6929
+Iteration [301/800], Loss: 0.5312
+Iteration [401/800], Loss: 0.5530
+Iteration [501/800], Loss: 0.5639
+Iteration [601/800], Loss: 0.5228
+Iteration [701/800], Loss: 0.4792
+**Epoch [58/200], Loss: 0.4406
+
+Iteration [1/800], Loss: 0.5290
+Iteration [101/800], Loss: 0.3990
+Iteration [201/800], Loss: 0.4115
+Iteration [301/800], Loss: 0.3838
+Iteration [401/800], Loss: 0.3919
+Iteration [501/800], Loss: 0.4377
+Iteration [601/800], Loss: 0.4447
+Iteration [701/800], Loss: 0.4550
+**Epoch [59/200], Loss: 0.4729
+
+Iteration [1/800], Loss: 0.8297
+Iteration [101/800], Loss: 0.4536
+Iteration [201/800], Loss: 0.3510
+Iteration [301/800], Loss: 0.3799
+Iteration [401/800], Loss: 0.3344
+Iteration [501/800], Loss: 0.3371
+Iteration [601/800], Loss: 0.3072
+Iteration [701/800], Loss: 0.2836
+**Epoch [60/200], Loss: 0.3032
+
+Iteration [1/800], Loss: 1.0589
+Iteration [101/800], Loss: 0.3691
+Iteration [201/800], Loss: 0.4315
+Iteration [301/800], Loss: 0.3573
+Iteration [401/800], Loss: 0.3573
+Iteration [501/800], Loss: 0.3243
+Iteration [601/800], Loss: 0.3461
+Iteration [701/800], Loss: 0.3345
+**Epoch [61/200], Loss: 0.3335
+
+Iteration [1/800], Loss: 0.5035
+Iteration [101/800], Loss: 0.7129
+Iteration [201/800], Loss: 0.4840
+Iteration [301/800], Loss: 0.4746
+Iteration [401/800], Loss: 0.4730
+Iteration [501/800], Loss: 0.4285
+Iteration [601/800], Loss: 0.3782
+Iteration [701/800], Loss: 0.3574
+**Epoch [62/200], Loss: 0.3405
+
+Iteration [1/800], Loss: 0.4867
+Iteration [101/800], Loss: 0.1707
+Iteration [201/800], Loss: 0.1990
+Iteration [301/800], Loss: 0.1959
+Iteration [401/800], Loss: 0.2381
+Iteration [501/800], Loss: 0.2897
+Iteration [601/800], Loss: 0.3417
+Iteration [701/800], Loss: 0.3371
+**Epoch [63/200], Loss: 0.3249
+
+Iteration [1/800], Loss: 0.7231
+Iteration [101/800], Loss: 0.1957
+Iteration [201/800], Loss: 0.1777
+Iteration [301/800], Loss: 0.1797
+Iteration [401/800], Loss: 0.1780
+Iteration [501/800], Loss: 0.1831
+Iteration [601/800], Loss: 0.2024
+Iteration [701/800], Loss: 0.2049
+**Epoch [64/200], Loss: 0.1986
+
+Iteration [1/800], Loss: 0.4475
+Iteration [101/800], Loss: 0.2035
+Iteration [201/800], Loss: 0.1886
+Iteration [301/800], Loss: 0.2480
+Iteration [401/800], Loss: 0.2635
+Iteration [501/800], Loss: 0.3509
+Iteration [601/800], Loss: 0.3489
+Iteration [701/800], Loss: 0.4179
+**Epoch [65/200], Loss: 0.4221
+
+Iteration [1/800], Loss: 3.0085
+Iteration [101/800], Loss: 0.3185
+Iteration [201/800], Loss: 0.2820
+Iteration [301/800], Loss: 0.3109
+Iteration [401/800], Loss: 0.2706
+Iteration [501/800], Loss: 0.2542
+Iteration [601/800], Loss: 0.2503
+Iteration [701/800], Loss: 0.2889
+**Epoch [66/200], Loss: 0.3061
+
+Iteration [1/800], Loss: 0.8411
+Iteration [101/800], Loss: 0.4003
+Iteration [201/800], Loss: 0.3635
+Iteration [301/800], Loss: 0.3830
+Iteration [401/800], Loss: 0.3362
+Iteration [501/800], Loss: 0.3054
+Iteration [601/800], Loss: 0.2830
+Iteration [701/800], Loss: 0.2931
+**Epoch [67/200], Loss: 0.2945
+
+Iteration [1/800], Loss: 0.4638
+Iteration [101/800], Loss: 0.2507
+Iteration [201/800], Loss: 0.1915
+Iteration [301/800], Loss: 0.2127
+Iteration [401/800], Loss: 0.2404
+Iteration [501/800], Loss: 0.2615
+Iteration [601/800], Loss: 0.2865
+Iteration [701/800], Loss: 0.3029
+**Epoch [68/200], Loss: 0.3202
+
+Iteration [1/800], Loss: 0.4040
+Iteration [101/800], Loss: 0.2407
+Iteration [201/800], Loss: 0.2246
+Iteration [301/800], Loss: 0.2031
+Iteration [401/800], Loss: 0.1849
+Iteration [501/800], Loss: 0.2700
+Iteration [601/800], Loss: 0.3578
+Iteration [701/800], Loss: 0.3322
+**Epoch [69/200], Loss: 0.3141
+
+Iteration [1/800], Loss: 0.3321
+Iteration [101/800], Loss: 0.1531
+Iteration [201/800], Loss: 0.1681
+Iteration [301/800], Loss: 0.1921
+Iteration [401/800], Loss: 0.2834
+Iteration [501/800], Loss: 0.2616
+Iteration [601/800], Loss: 0.2586
+Iteration [701/800], Loss: 0.2618
+**Epoch [70/200], Loss: 0.2619
+
+Iteration [1/800], Loss: 1.0388
+Iteration [101/800], Loss: 0.1908
+Iteration [201/800], Loss: 0.1974
+Iteration [301/800], Loss: 0.2128
+Iteration [401/800], Loss: 0.2375
+Iteration [501/800], Loss: 0.2594
+Iteration [601/800], Loss: 0.2565
+Iteration [701/800], Loss: 0.2533
+**Epoch [71/200], Loss: 0.2466
+
+Iteration [1/800], Loss: 0.2472
+Iteration [101/800], Loss: 0.1475
+Iteration [201/800], Loss: 0.1421
+Iteration [301/800], Loss: 0.1541
+Iteration [401/800], Loss: 0.2063
+Iteration [501/800], Loss: 0.2417
+Iteration [601/800], Loss: 0.2277
+Iteration [701/800], Loss: 0.2842
+**Epoch [72/200], Loss: 0.2767
+
+Iteration [1/800], Loss: 0.1720
+Iteration [101/800], Loss: 0.1732
+Iteration [201/800], Loss: 0.1574
+Iteration [301/800], Loss: 0.1613
+Iteration [401/800], Loss: 0.1764
+Iteration [501/800], Loss: 0.1760
+Iteration [601/800], Loss: 0.2011
+Iteration [701/800], Loss: 0.1987
+**Epoch [73/200], Loss: 0.1937
+
+Iteration [1/800], Loss: 0.2432
+Iteration [101/800], Loss: 0.1115
+Iteration [201/800], Loss: 0.1452
+Iteration [301/800], Loss: 0.2189
+Iteration [401/800], Loss: 0.2238
+Iteration [501/800], Loss: 0.2356
+Iteration [601/800], Loss: 0.2330
+Iteration [701/800], Loss: 0.2168
+**Epoch [74/200], Loss: 0.2081
+
+Iteration [1/800], Loss: 0.5122
+Iteration [101/800], Loss: 0.2216
+Iteration [201/800], Loss: 0.2603
+Iteration [301/800], Loss: 0.4064
+Iteration [401/800], Loss: 0.3987
+Iteration [501/800], Loss: 0.3450
+Iteration [601/800], Loss: 0.3203
+Iteration [701/800], Loss: 0.2968
+**Epoch [75/200], Loss: 0.2768
+
+Iteration [1/800], Loss: 0.2664
+Iteration [101/800], Loss: 0.1158
+Iteration [201/800], Loss: 0.1692
+Iteration [301/800], Loss: 0.1958
+Iteration [401/800], Loss: 0.2551
+Iteration [501/800], Loss: 0.2696
+Iteration [601/800], Loss: 0.2734
+Iteration [701/800], Loss: 0.2645
+**Epoch [76/200], Loss: 0.2668
+
+Iteration [1/800], Loss: 0.1118
+Iteration [101/800], Loss: 0.2658
+Iteration [201/800], Loss: 0.3294
+Iteration [301/800], Loss: 0.9348
+Iteration [401/800], Loss: 1.0204
+Iteration [501/800], Loss: 0.8583
+Iteration [601/800], Loss: 0.7394
+Iteration [701/800], Loss: 0.6506
+**Epoch [77/200], Loss: 0.5818
+
+Iteration [1/800], Loss: 0.2091
+Iteration [101/800], Loss: 0.1090
+Iteration [201/800], Loss: 0.1273
+Iteration [301/800], Loss: 0.1620
+Iteration [401/800], Loss: 0.1518
+Iteration [501/800], Loss: 0.1455
+Iteration [601/800], Loss: 0.1472
+Iteration [701/800], Loss: 0.1522
+**Epoch [78/200], Loss: 0.1616
+
+Iteration [1/800], Loss: 0.3330
+Iteration [101/800], Loss: 0.1261
+Iteration [201/800], Loss: 0.1189
+Iteration [301/800], Loss: 0.1276
+Iteration [401/800], Loss: 0.1314
+Iteration [501/800], Loss: 0.1293
+Iteration [601/800], Loss: 0.1408
+Iteration [701/800], Loss: 0.1381
+**Epoch [79/200], Loss: 0.1426
+
+Iteration [1/800], Loss: 0.3837
+Iteration [101/800], Loss: 0.1840
+Iteration [201/800], Loss: 0.3009
+Iteration [301/800], Loss: 0.2714
+Iteration [401/800], Loss: 0.2716
+Iteration [501/800], Loss: 0.3015
+Iteration [601/800], Loss: 0.3185
+Iteration [701/800], Loss: 0.2977
+**Epoch [80/200], Loss: 0.2818
+
+Iteration [1/800], Loss: 0.2012
+Iteration [101/800], Loss: 0.1548
+Iteration [201/800], Loss: 0.1471
+Iteration [301/800], Loss: 0.1844
+Iteration [401/800], Loss: 0.1717
+Iteration [501/800], Loss: 0.1592
+Iteration [601/800], Loss: 0.1533
+Iteration [701/800], Loss: 0.1985
+**Epoch [81/200], Loss: 0.2409
+
+Iteration [1/800], Loss: 0.5537
+Iteration [101/800], Loss: 0.1147
+Iteration [201/800], Loss: 0.1161
+Iteration [301/800], Loss: 0.1183
+Iteration [401/800], Loss: 0.1245
+Iteration [501/800], Loss: 0.1246
+Iteration [601/800], Loss: 0.1263
+Iteration [701/800], Loss: 0.1305
+**Epoch [82/200], Loss: 0.1325
+
+Iteration [1/800], Loss: 0.5730
+Iteration [101/800], Loss: 0.2195
+Iteration [201/800], Loss: 0.3281
+Iteration [301/800], Loss: 0.5843
+Iteration [401/800], Loss: 0.4705
+Iteration [501/800], Loss: 0.3998
+Iteration [601/800], Loss: 0.3497
+Iteration [701/800], Loss: 0.3112
+**Epoch [83/200], Loss: 0.2911
+
+Iteration [1/800], Loss: 0.1784
+Iteration [101/800], Loss: 0.0975
+Iteration [201/800], Loss: 0.0956
+Iteration [301/800], Loss: 0.1098
+Iteration [401/800], Loss: 0.1186
+Iteration [501/800], Loss: 0.1153
+Iteration [601/800], Loss: 0.1182
+Iteration [701/800], Loss: 0.1284
+**Epoch [84/200], Loss: 0.1313
+
+Iteration [1/800], Loss: 0.2273
+Iteration [101/800], Loss: 0.1109
+Iteration [201/800], Loss: 0.1174
+Iteration [301/800], Loss: 0.2988
+Iteration [401/800], Loss: 0.3000
+Iteration [501/800], Loss: 0.2765
+Iteration [601/800], Loss: 0.2464
+Iteration [701/800], Loss: 0.2231
+**Epoch [85/200], Loss: 0.2090
+
+Iteration [1/800], Loss: 0.2025
+Iteration [101/800], Loss: 0.0892
+Iteration [201/800], Loss: 0.0946
+Iteration [301/800], Loss: 0.0960
+Iteration [401/800], Loss: 0.1057
+Iteration [501/800], Loss: 0.1384
+Iteration [601/800], Loss: 0.1682
+Iteration [701/800], Loss: 0.1663
+**Epoch [86/200], Loss: 0.1803
+
+Iteration [1/800], Loss: 0.5986
+Iteration [101/800], Loss: 0.3632
+Iteration [201/800], Loss: 0.3317
+Iteration [301/800], Loss: 0.3210
+Iteration [401/800], Loss: 0.2795
+Iteration [501/800], Loss: 0.2416
+Iteration [601/800], Loss: 0.2204
+Iteration [701/800], Loss: 0.2148
+**Epoch [87/200], Loss: 0.2060
+
+Iteration [1/800], Loss: 0.1931
+Iteration [101/800], Loss: 0.1008
+Iteration [201/800], Loss: 0.1038
+Iteration [301/800], Loss: 0.1025
+Iteration [401/800], Loss: 0.1121
+Iteration [501/800], Loss: 0.1139
+Iteration [601/800], Loss: 0.1450
+Iteration [701/800], Loss: 0.1643
+**Epoch [88/200], Loss: 0.1731
+
+Iteration [1/800], Loss: 0.6926
+Iteration [101/800], Loss: 0.2029
+Iteration [201/800], Loss: 0.2076
+Iteration [301/800], Loss: 0.3741
+Iteration [401/800], Loss: 0.3277
+Iteration [501/800], Loss: 0.3167
+Iteration [601/800], Loss: 0.2929
+Iteration [701/800], Loss: 0.2806
+**Epoch [89/200], Loss: 0.2649
+
+Iteration [1/800], Loss: 0.2123
+Iteration [101/800], Loss: 0.1498
+Iteration [201/800], Loss: 0.1704
+Iteration [301/800], Loss: 0.1901
+Iteration [401/800], Loss: 0.1729
+Iteration [501/800], Loss: 0.1744
+Iteration [601/800], Loss: 0.1745
+Iteration [701/800], Loss: 0.1761
+**Epoch [90/200], Loss: 0.1752
+
+Iteration [1/800], Loss: 0.1549
+Iteration [101/800], Loss: 0.1708
+Iteration [201/800], Loss: 0.1480
+Iteration [301/800], Loss: 0.1540
+Iteration [401/800], Loss: 0.1747
+Iteration [501/800], Loss: 0.1835
+Iteration [601/800], Loss: 0.1988
+Iteration [701/800], Loss: 0.1894
+**Epoch [91/200], Loss: 0.1810
+
+Iteration [1/800], Loss: 0.1815
+Iteration [101/800], Loss: 0.1350
+Iteration [201/800], Loss: 0.1402
+Iteration [301/800], Loss: 0.1414
+Iteration [401/800], Loss: 0.1355
+Iteration [501/800], Loss: 0.1263
+Iteration [601/800], Loss: 0.1248
+Iteration [701/800], Loss: 0.1231
+**Epoch [92/200], Loss: 0.1211
+
+Iteration [1/800], Loss: 0.1132
+Iteration [101/800], Loss: 0.1101
+Iteration [201/800], Loss: 0.1080
+Iteration [301/800], Loss: 0.1051
+Iteration [401/800], Loss: 0.1262
+Iteration [501/800], Loss: 0.1500
+Iteration [601/800], Loss: 0.1450
+Iteration [701/800], Loss: 0.1392
+**Epoch [93/200], Loss: 0.1412
+
+Iteration [1/800], Loss: 0.7101
+Iteration [101/800], Loss: 0.3063
+Iteration [201/800], Loss: 0.2516
+Iteration [301/800], Loss: 0.2226
+Iteration [401/800], Loss: 0.1901
+Iteration [501/800], Loss: 0.1781
+Iteration [601/800], Loss: 0.1647
+Iteration [701/800], Loss: 0.1561
+**Epoch [94/200], Loss: 0.1580
+
+Iteration [1/800], Loss: 0.3080
+Iteration [101/800], Loss: 0.5031
+Iteration [201/800], Loss: 0.4458
+Iteration [301/800], Loss: 0.4047
+Iteration [401/800], Loss: 0.3511
+Iteration [501/800], Loss: 0.3015
+Iteration [601/800], Loss: 0.2765
+Iteration [701/800], Loss: 0.2605
+**Epoch [95/200], Loss: 0.2431
+
+Iteration [1/800], Loss: 0.1985
+Iteration [101/800], Loss: 0.1154
+Iteration [201/800], Loss: 0.0996
+Iteration [301/800], Loss: 0.0916
+Iteration [401/800], Loss: 0.1033
+Iteration [501/800], Loss: 0.1092
+Iteration [601/800], Loss: 0.1279
+Iteration [701/800], Loss: 0.1406
+**Epoch [96/200], Loss: 0.1724
+
+Iteration [1/800], Loss: 0.1334
+Iteration [101/800], Loss: 0.1500
+Iteration [201/800], Loss: 0.1251
+Iteration [301/800], Loss: 0.1307
+Iteration [401/800], Loss: 0.1237
+Iteration [501/800], Loss: 0.1217
+Iteration [601/800], Loss: 0.1194
+Iteration [701/800], Loss: 0.1148
+**Epoch [97/200], Loss: 0.1140
+
+Iteration [1/800], Loss: 0.1096
+Iteration [101/800], Loss: 0.1500
+Iteration [201/800], Loss: 0.1444
+Iteration [301/800], Loss: 0.1435
+Iteration [401/800], Loss: 0.1509
+Iteration [501/800], Loss: 0.1589
+Iteration [601/800], Loss: 0.1548
+Iteration [701/800], Loss: 0.1611
+**Epoch [98/200], Loss: 0.1748
+
+Iteration [1/800], Loss: 0.2992
+Iteration [101/800], Loss: 0.1359
+Iteration [201/800], Loss: 0.1175
+Iteration [301/800], Loss: 0.1117
+Iteration [401/800], Loss: 0.1582
+Iteration [501/800], Loss: 0.1752
+Iteration [601/800], Loss: 0.1613
+Iteration [701/800], Loss: 0.1530
+**Epoch [99/200], Loss: 0.1453
+
+Iteration [1/800], Loss: 0.2280
+Iteration [101/800], Loss: 0.0964
+Iteration [201/800], Loss: 0.1246
+Iteration [301/800], Loss: 0.1463
+Iteration [401/800], Loss: 0.1407
+Iteration [501/800], Loss: 0.1304
+Iteration [601/800], Loss: 0.1285
+Iteration [701/800], Loss: 0.1296
+**Epoch [100/200], Loss: 0.1425
+
+Iteration [1/800], Loss: 0.1352
+Iteration [101/800], Loss: 0.1107
+Iteration [201/800], Loss: 0.1152
+Iteration [301/800], Loss: 0.1029
+Iteration [401/800], Loss: 0.0993
+Iteration [501/800], Loss: 0.0957
+Iteration [601/800], Loss: 0.1085
+Iteration [701/800], Loss: 0.1047
+**Epoch [101/200], Loss: 0.1024
+
+Iteration [1/800], Loss: 0.0542
+Iteration [101/800], Loss: 0.0601
+Iteration [201/800], Loss: 0.0657
+Iteration [301/800], Loss: 0.0700
+Iteration [401/800], Loss: 0.0838
+Iteration [501/800], Loss: 0.1222
+Iteration [601/800], Loss: 0.1226
+Iteration [701/800], Loss: 0.1454
+**Epoch [102/200], Loss: 0.1424
+
+Iteration [1/800], Loss: 0.2415
+Iteration [101/800], Loss: 0.1289
+Iteration [201/800], Loss: 0.1159
+Iteration [301/800], Loss: 0.1063
+Iteration [401/800], Loss: 0.1023
+Iteration [501/800], Loss: 0.1293
+Iteration [601/800], Loss: 0.2625
+Iteration [701/800], Loss: 0.2805
+**Epoch [103/200], Loss: 0.2567
+
+Iteration [1/800], Loss: 0.0811
+Iteration [101/800], Loss: 0.0662
+Iteration [201/800], Loss: 0.0641
+Iteration [301/800], Loss: 0.0667
+Iteration [401/800], Loss: 0.0664
+Iteration [501/800], Loss: 0.0683
+Iteration [601/800], Loss: 0.0692
+Iteration [701/800], Loss: 0.0810
+**Epoch [104/200], Loss: 0.1059
+
+Iteration [1/800], Loss: 0.2118
+Iteration [101/800], Loss: 0.2615
+Iteration [201/800], Loss: 0.2181
+Iteration [301/800], Loss: 0.1735
+Iteration [401/800], Loss: 0.1454
+Iteration [501/800], Loss: 0.1278
+Iteration [601/800], Loss: 0.1149
+Iteration [701/800], Loss: 0.1078
+**Epoch [105/200], Loss: 0.1090
+
+Iteration [1/800], Loss: 0.0370
+Iteration [101/800], Loss: 0.2349
+Iteration [201/800], Loss: 0.2945
+Iteration [301/800], Loss: 0.2455
+Iteration [401/800], Loss: 0.2093
+Iteration [501/800], Loss: 0.1822
+Iteration [601/800], Loss: 0.1718
+Iteration [701/800], Loss: 0.1572
+**Epoch [106/200], Loss: 0.1495
+
+Iteration [1/800], Loss: 0.1261
+Iteration [101/800], Loss: 0.0896
+Iteration [201/800], Loss: 0.1011
+Iteration [301/800], Loss: 0.0969
+Iteration [401/800], Loss: 0.0952
+Iteration [501/800], Loss: 0.0884
+Iteration [601/800], Loss: 0.0926
+Iteration [701/800], Loss: 0.0961
+**Epoch [107/200], Loss: 0.1126
+
+Iteration [1/800], Loss: 0.1362
+Iteration [101/800], Loss: 0.2239
+Iteration [201/800], Loss: 0.1657
+Iteration [301/800], Loss: 0.1327
+Iteration [401/800], Loss: 0.1376
+Iteration [501/800], Loss: 0.1296
+Iteration [601/800], Loss: 0.1259
+Iteration [701/800], Loss: 0.1165
+**Epoch [108/200], Loss: 0.1119
+
+Iteration [1/800], Loss: 0.1787
+Iteration [101/800], Loss: 0.1158
+Iteration [201/800], Loss: 0.1142
+Iteration [301/800], Loss: 0.1278
+Iteration [401/800], Loss: 0.1717
+Iteration [501/800], Loss: 0.1579
+Iteration [601/800], Loss: 0.1515
+Iteration [701/800], Loss: 0.1473
+**Epoch [109/200], Loss: 0.1901
+
+Iteration [1/800], Loss: 0.5936
+Iteration [101/800], Loss: 0.2690
+Iteration [201/800], Loss: 0.1931
+Iteration [301/800], Loss: 0.1575
+Iteration [401/800], Loss: 0.1368
+Iteration [501/800], Loss: 0.1232
+Iteration [601/800], Loss: 0.1117
+Iteration [701/800], Loss: 0.1050
+**Epoch [110/200], Loss: 0.0991
+
+Iteration [1/800], Loss: 0.0932
+Iteration [101/800], Loss: 0.0540
+Iteration [201/800], Loss: 0.0473
+Iteration [301/800], Loss: 0.0519
+Iteration [401/800], Loss: 0.0762
+Iteration [501/800], Loss: 0.0770
+Iteration [601/800], Loss: 0.0914
+Iteration [701/800], Loss: 0.1013
+**Epoch [111/200], Loss: 0.1057
+
+Iteration [1/800], Loss: 0.2428
+Iteration [101/800], Loss: 0.0757
+Iteration [201/800], Loss: 0.0752
+Iteration [301/800], Loss: 0.0782
+Iteration [401/800], Loss: 0.0796
+Iteration [501/800], Loss: 0.0795
+Iteration [601/800], Loss: 0.0792
+Iteration [701/800], Loss: 0.0780
+**Epoch [112/200], Loss: 0.0815
+
+Iteration [1/800], Loss: 0.4757
+Iteration [101/800], Loss: 0.1788
+Iteration [201/800], Loss: 0.1568
+Iteration [301/800], Loss: 0.1764
+Iteration [401/800], Loss: 0.1606
+Iteration [501/800], Loss: 0.1395
+Iteration [601/800], Loss: 0.1305
+Iteration [701/800], Loss: 0.1203
+**Epoch [113/200], Loss: 0.1120
+
+Iteration [1/800], Loss: 0.1201
+Iteration [101/800], Loss: 0.1389
+Iteration [201/800], Loss: 0.1053
+Iteration [301/800], Loss: 0.1162
+Iteration [401/800], Loss: 0.1432
+Iteration [501/800], Loss: 0.1359
+Iteration [601/800], Loss: 0.1249
+Iteration [701/800], Loss: 0.1191
+**Epoch [114/200], Loss: 0.1160
+
+Iteration [1/800], Loss: 0.0747
+Iteration [101/800], Loss: 0.0715
+Iteration [201/800], Loss: 0.0837
+Iteration [301/800], Loss: 0.0862
+Iteration [401/800], Loss: 0.0825
+Iteration [501/800], Loss: 0.0831
+Iteration [601/800], Loss: 0.0872
+Iteration [701/800], Loss: 0.0902
+**Epoch [115/200], Loss: 0.0994
+
+Iteration [1/800], Loss: 0.0717
+Iteration [101/800], Loss: 0.0631
+Iteration [201/800], Loss: 0.0785
+Iteration [301/800], Loss: 0.1259
+Iteration [401/800], Loss: 0.1231
+Iteration [501/800], Loss: 0.1263
+Iteration [601/800], Loss: 0.1213
+Iteration [701/800], Loss: 0.1162
+**Epoch [116/200], Loss: 0.1102
+
+Iteration [1/800], Loss: 0.3012
+Iteration [101/800], Loss: 0.0686
+Iteration [201/800], Loss: 0.0954
+Iteration [301/800], Loss: 0.1001
+Iteration [401/800], Loss: 0.0973
+Iteration [501/800], Loss: 0.0944
+Iteration [601/800], Loss: 0.0908
+Iteration [701/800], Loss: 0.0891
+**Epoch [117/200], Loss: 0.0928
+
+Iteration [1/800], Loss: 0.4090
+Iteration [101/800], Loss: 0.1236
+Iteration [201/800], Loss: 0.1102
+Iteration [301/800], Loss: 0.1091
+Iteration [401/800], Loss: 0.1502
+Iteration [501/800], Loss: 0.1454
+Iteration [601/800], Loss: 0.1374
+Iteration [701/800], Loss: 0.1348
+**Epoch [118/200], Loss: 0.1336
+
+Iteration [1/800], Loss: 0.1191
+Iteration [101/800], Loss: 0.1329
+Iteration [201/800], Loss: 0.1651
+Iteration [301/800], Loss: 0.2084
+Iteration [401/800], Loss: 0.2219
+Iteration [501/800], Loss: 0.1928
+Iteration [601/800], Loss: 0.1708
+Iteration [701/800], Loss: 0.1543
+**Epoch [119/200], Loss: 0.1443
+
+Iteration [1/800], Loss: 0.1104
+Iteration [101/800], Loss: 0.0551
+Iteration [201/800], Loss: 0.0598
+Iteration [301/800], Loss: 0.0681
+Iteration [401/800], Loss: 0.0942
+Iteration [501/800], Loss: 0.0940
+Iteration [601/800], Loss: 0.0962
+Iteration [701/800], Loss: 0.0921
+**Epoch [120/200], Loss: 0.1004
+
+Iteration [1/800], Loss: 0.2291
+Iteration [101/800], Loss: 0.0732
+Iteration [201/800], Loss: 0.0604
+Iteration [301/800], Loss: 0.0527
+Iteration [401/800], Loss: 0.0526
+Iteration [501/800], Loss: 0.0603
+Iteration [601/800], Loss: 0.0610
+Iteration [701/800], Loss: 0.0588
+**Epoch [121/200], Loss: 0.0564
+
+Iteration [1/800], Loss: 0.2397
+Iteration [101/800], Loss: 0.1712
+Iteration [201/800], Loss: 0.1679
+Iteration [301/800], Loss: 0.1606
+Iteration [401/800], Loss: 0.1425
+Iteration [501/800], Loss: 0.1468
+Iteration [601/800], Loss: 0.1333
+Iteration [701/800], Loss: 0.1296
+**Epoch [122/200], Loss: 0.1198
+
+Iteration [1/800], Loss: 0.1502
+Iteration [101/800], Loss: 0.0667
+Iteration [201/800], Loss: 0.0611
+Iteration [301/800], Loss: 0.0724
+Iteration [401/800], Loss: 0.0638
+Iteration [501/800], Loss: 0.0618
+Iteration [601/800], Loss: 0.0592
+Iteration [701/800], Loss: 0.0578
+**Epoch [123/200], Loss: 0.0563
+
+Iteration [1/800], Loss: 0.1856
+Iteration [101/800], Loss: 0.0596
+Iteration [201/800], Loss: 0.0883
+Iteration [301/800], Loss: 0.1299
+Iteration [401/800], Loss: 0.1129
+Iteration [501/800], Loss: 0.1017
+Iteration [601/800], Loss: 0.0910
+Iteration [701/800], Loss: 0.0925
+**Epoch [124/200], Loss: 0.0927
+
+Iteration [1/800], Loss: 0.0494
+Iteration [101/800], Loss: 0.1015
+Iteration [201/800], Loss: 0.0744
+Iteration [301/800], Loss: 0.0893
+Iteration [401/800], Loss: 0.0810
+Iteration [501/800], Loss: 0.0725
+Iteration [601/800], Loss: 0.0665
+Iteration [701/800], Loss: 0.0662
+**Epoch [125/200], Loss: 0.0780
+
+Iteration [1/800], Loss: 0.3527
+Iteration [101/800], Loss: 0.1935
+Iteration [201/800], Loss: 0.1295
+Iteration [301/800], Loss: 0.1252
+Iteration [401/800], Loss: 0.1101
+Iteration [501/800], Loss: 0.1082
+Iteration [601/800], Loss: 0.0983
+Iteration [701/800], Loss: 0.0927
+**Epoch [126/200], Loss: 0.0881
+
+Iteration [1/800], Loss: 0.0651
+Iteration [101/800], Loss: 0.0523
+Iteration [201/800], Loss: 0.0544
+Iteration [301/800], Loss: 0.0600
+Iteration [401/800], Loss: 0.0594
+Iteration [501/800], Loss: 0.0550
+Iteration [601/800], Loss: 0.0553
+Iteration [701/800], Loss: 0.0844
+**Epoch [127/200], Loss: 0.0812
+
+Iteration [1/800], Loss: 0.2047
+Iteration [101/800], Loss: 0.1155
+Iteration [201/800], Loss: 0.1226
+Iteration [301/800], Loss: 0.1139
+Iteration [401/800], Loss: 0.0952
+Iteration [501/800], Loss: 0.0861
+Iteration [601/800], Loss: 0.0796
+Iteration [701/800], Loss: 0.0782
+**Epoch [128/200], Loss: 0.0773
+
+Iteration [1/800], Loss: 0.0934
+Iteration [101/800], Loss: 0.0501
+Iteration [201/800], Loss: 0.0539
+Iteration [301/800], Loss: 0.0557
+Iteration [401/800], Loss: 0.0748
+Iteration [501/800], Loss: 0.0713
+Iteration [601/800], Loss: 0.0986
+Iteration [701/800], Loss: 0.0934
+**Epoch [129/200], Loss: 0.0880
+
+Iteration [1/800], Loss: 0.1067
+Iteration [101/800], Loss: 0.0522
+Iteration [201/800], Loss: 0.0616
+Iteration [301/800], Loss: 0.0670
+Iteration [401/800], Loss: 0.0599
+Iteration [501/800], Loss: 0.0564
+Iteration [601/800], Loss: 0.0549
+Iteration [701/800], Loss: 0.0564
+**Epoch [130/200], Loss: 0.0607
+
+Iteration [1/800], Loss: 0.4394
+Iteration [101/800], Loss: 0.1205
+Iteration [201/800], Loss: 0.0981
+Iteration [301/800], Loss: 0.0896
+Iteration [401/800], Loss: 0.0780
+Iteration [501/800], Loss: 0.0725
+Iteration [601/800], Loss: 0.0705
+Iteration [701/800], Loss: 0.0683
+**Epoch [131/200], Loss: 0.0685
+
+Iteration [1/800], Loss: 0.1009
+Iteration [101/800], Loss: 0.0543
+Iteration [201/800], Loss: 0.0655
+Iteration [301/800], Loss: 0.0699
+Iteration [401/800], Loss: 0.0709
+Iteration [501/800], Loss: 0.0659
+Iteration [601/800], Loss: 0.0759
+Iteration [701/800], Loss: 0.0724
+**Epoch [132/200], Loss: 0.0724
+
+Iteration [1/800], Loss: 0.0538
+Iteration [101/800], Loss: 0.0671
+Iteration [201/800], Loss: 0.0573
+Iteration [301/800], Loss: 0.0544
+Iteration [401/800], Loss: 0.0597
+Iteration [501/800], Loss: 0.0567
+Iteration [601/800], Loss: 0.0576
+Iteration [701/800], Loss: 0.0582
+**Epoch [133/200], Loss: 0.0560
+
+Iteration [1/800], Loss: 0.0606
+Iteration [101/800], Loss: 0.0488
+Iteration [201/800], Loss: 0.0711
+Iteration [301/800], Loss: 0.0790
+Iteration [401/800], Loss: 0.0747
+Iteration [501/800], Loss: 0.0726
+Iteration [601/800], Loss: 0.0714
+Iteration [701/800], Loss: 0.0697
+**Epoch [134/200], Loss: 0.0738
+
+Iteration [1/800], Loss: 0.4149
+Iteration [101/800], Loss: 0.1890
+Iteration [201/800], Loss: 0.1221
+Iteration [301/800], Loss: 0.0945
+Iteration [401/800], Loss: 0.0883
+Iteration [501/800], Loss: 0.0777
+Iteration [601/800], Loss: 0.0735
+Iteration [701/800], Loss: 0.0683
+**Epoch [135/200], Loss: 0.0715
+
+Iteration [1/800], Loss: 0.1671
+Iteration [101/800], Loss: 0.0863
+Iteration [201/800], Loss: 0.0772
+Iteration [301/800], Loss: 0.0747
+Iteration [401/800], Loss: 0.0640
+Iteration [501/800], Loss: 0.0580
+Iteration [601/800], Loss: 0.0565
+Iteration [701/800], Loss: 0.0589
+**Epoch [136/200], Loss: 0.0604
+
+Iteration [1/800], Loss: 0.0492
+Iteration [101/800], Loss: 0.0869
+Iteration [201/800], Loss: 0.1127
+Iteration [301/800], Loss: 0.0983
+Iteration [401/800], Loss: 0.0888
+Iteration [501/800], Loss: 0.0865
+Iteration [601/800], Loss: 0.0931
+Iteration [701/800], Loss: 0.0846
+**Epoch [137/200], Loss: 0.0783
+
+Iteration [1/800], Loss: 0.3336
+Iteration [101/800], Loss: 0.0676
+Iteration [201/800], Loss: 0.0657
+Iteration [301/800], Loss: 0.0723
+Iteration [401/800], Loss: 0.0646
+Iteration [501/800], Loss: 0.0638
+Iteration [601/800], Loss: 0.0605
+Iteration [701/800], Loss: 0.0599
+**Epoch [138/200], Loss: 0.0560
+
+Iteration [1/800], Loss: 0.0288
+Iteration [101/800], Loss: 0.0452
+Iteration [201/800], Loss: 0.0382
+Iteration [301/800], Loss: 0.0363
+Iteration [401/800], Loss: 0.0502
+Iteration [501/800], Loss: 0.0539
+Iteration [601/800], Loss: 0.0736
+Iteration [701/800], Loss: 0.0970
+**Epoch [139/200], Loss: 0.1282
+
+Iteration [1/800], Loss: 0.0880
+Iteration [101/800], Loss: 0.0686
+Iteration [201/800], Loss: 0.0723
+Iteration [301/800], Loss: 0.0737
+Iteration [401/800], Loss: 0.0649
+Iteration [501/800], Loss: 0.0578
+Iteration [601/800], Loss: 0.0543
+Iteration [701/800], Loss: 0.0511
+**Epoch [140/200], Loss: 0.0486
+
+Iteration [1/800], Loss: 0.0475
+Iteration [101/800], Loss: 0.0211
+Iteration [201/800], Loss: 0.0231
+Iteration [301/800], Loss: 0.0257
+Iteration [401/800], Loss: 0.0297
+Iteration [501/800], Loss: 0.0295
+Iteration [601/800], Loss: 0.0315
+Iteration [701/800], Loss: 0.0321
+**Epoch [141/200], Loss: 0.0351
+
+Iteration [1/800], Loss: 0.0410
+Iteration [101/800], Loss: 0.0431
+Iteration [201/800], Loss: 0.0411
+Iteration [301/800], Loss: 0.0367
+Iteration [401/800], Loss: 0.0361
+Iteration [501/800], Loss: 0.0362
+Iteration [601/800], Loss: 0.0361
+Iteration [701/800], Loss: 0.0406
+**Epoch [142/200], Loss: 0.0501
+
+Iteration [1/800], Loss: 0.0577
+Iteration [101/800], Loss: 0.0763
+Iteration [201/800], Loss: 0.0922
+Iteration [301/800], Loss: 0.0820
+Iteration [401/800], Loss: 0.0737
+Iteration [501/800], Loss: 0.0720
+Iteration [601/800], Loss: 0.0749
+Iteration [701/800], Loss: 0.0713
+**Epoch [143/200], Loss: 0.0691
+
+Iteration [1/800], Loss: 0.1191
+Iteration [101/800], Loss: 0.1060
+Iteration [201/800], Loss: 0.0964
+Iteration [301/800], Loss: 0.0784
+Iteration [401/800], Loss: 0.0677
+Iteration [501/800], Loss: 0.0613
+Iteration [601/800], Loss: 0.0593
+Iteration [701/800], Loss: 0.0593
+**Epoch [144/200], Loss: 0.0583
+
+Iteration [1/800], Loss: 0.1453
+Iteration [101/800], Loss: 0.0327
+Iteration [201/800], Loss: 0.0326
+Iteration [301/800], Loss: 0.0355
+Iteration [401/800], Loss: 0.0360
+Iteration [501/800], Loss: 0.0395
+Iteration [601/800], Loss: 0.0379
+Iteration [701/800], Loss: 0.0416
+**Epoch [145/200], Loss: 0.0439
+
+Iteration [1/800], Loss: 0.2990
+Iteration [101/800], Loss: 0.1060
+Iteration [201/800], Loss: 0.0711
+Iteration [301/800], Loss: 0.0605
+Iteration [401/800], Loss: 0.0572
+Iteration [501/800], Loss: 0.0625
+Iteration [601/800], Loss: 0.0629
+Iteration [701/800], Loss: 0.0585
+**Epoch [146/200], Loss: 0.0560
+
+Iteration [1/800], Loss: 0.0543
+Iteration [101/800], Loss: 0.0328
+Iteration [201/800], Loss: 0.0312
+Iteration [301/800], Loss: 0.0482
+Iteration [401/800], Loss: 0.0488
+Iteration [501/800], Loss: 0.0701
+Iteration [601/800], Loss: 0.0724
+Iteration [701/800], Loss: 0.0682
+**Epoch [147/200], Loss: 0.0651
+
+Iteration [1/800], Loss: 0.0446
+Iteration [101/800], Loss: 0.0434
+Iteration [201/800], Loss: 0.0489
+Iteration [301/800], Loss: 0.0565
+Iteration [401/800], Loss: 0.0566
+Iteration [501/800], Loss: 0.0505
+Iteration [601/800], Loss: 0.0487
+Iteration [701/800], Loss: 0.0520
+**Epoch [148/200], Loss: 0.0670
+
+Iteration [1/800], Loss: 0.2570
+Iteration [101/800], Loss: 0.1886
+Iteration [201/800], Loss: 0.1252
+Iteration [301/800], Loss: 0.0941
+Iteration [401/800], Loss: 0.0780
+Iteration [501/800], Loss: 0.0678
+Iteration [601/800], Loss: 0.0653
+Iteration [701/800], Loss: 0.0605
+**Epoch [149/200], Loss: 0.0572
+
+Iteration [1/800], Loss: 0.1935
+Iteration [101/800], Loss: 0.0460
+Iteration [201/800], Loss: 0.0374
+Iteration [301/800], Loss: 0.0347
+Iteration [401/800], Loss: 0.0429
+Iteration [501/800], Loss: 0.0496
+Iteration [601/800], Loss: 0.0595
+Iteration [701/800], Loss: 0.0603
+**Epoch [150/200], Loss: 0.0567
+
+Iteration [1/800], Loss: 0.0817
+Iteration [101/800], Loss: 0.0312
+Iteration [201/800], Loss: 0.0315
+Iteration [301/800], Loss: 0.0323
+Iteration [401/800], Loss: 0.0304
+Iteration [501/800], Loss: 0.0315
+Iteration [601/800], Loss: 0.0305
+Iteration [701/800], Loss: 0.0292
+**Epoch [151/200], Loss: 0.0344
+
+Iteration [1/800], Loss: 0.0949
+Iteration [101/800], Loss: 0.0889
+Iteration [201/800], Loss: 0.0689
+Iteration [301/800], Loss: 0.0558
+Iteration [401/800], Loss: 0.0546
+Iteration [501/800], Loss: 0.0567
+Iteration [601/800], Loss: 0.0518
+Iteration [701/800], Loss: 0.0569
+**Epoch [152/200], Loss: 0.0543
+
+Iteration [1/800], Loss: 0.0233
+Iteration [101/800], Loss: 0.0369
+Iteration [201/800], Loss: 0.0404
+Iteration [301/800], Loss: 0.0464
+Iteration [401/800], Loss: 0.0419
+Iteration [501/800], Loss: 0.0416
+Iteration [601/800], Loss: 0.0396
+Iteration [701/800], Loss: 0.0421
+**Epoch [153/200], Loss: 0.0436
+
+Iteration [1/800], Loss: 0.0869
+Iteration [101/800], Loss: 0.0329
+Iteration [201/800], Loss: 0.0425
+Iteration [301/800], Loss: 0.0523
+Iteration [401/800], Loss: 0.0560
+Iteration [501/800], Loss: 0.0550
+Iteration [601/800], Loss: 0.0540
+Iteration [701/800], Loss: 0.0498
+**Epoch [154/200], Loss: 0.0470
+
+Iteration [1/800], Loss: 0.0732
+Iteration [101/800], Loss: 0.0286
+Iteration [201/800], Loss: 0.0455
+Iteration [301/800], Loss: 0.0533
+Iteration [401/800], Loss: 0.0539
+Iteration [501/800], Loss: 0.0582
+Iteration [601/800], Loss: 0.0539
+Iteration [701/800], Loss: 0.0492
+**Epoch [155/200], Loss: 0.0461
+
+Iteration [1/800], Loss: 0.1016
+Iteration [101/800], Loss: 0.0248
+Iteration [201/800], Loss: 0.0235
+Iteration [301/800], Loss: 0.0301
+Iteration [401/800], Loss: 0.0376
+Iteration [501/800], Loss: 0.0564
+Iteration [601/800], Loss: 0.0604
+Iteration [701/800], Loss: 0.0572
+**Epoch [156/200], Loss: 0.0584
+
+Iteration [1/800], Loss: 0.0882
+Iteration [101/800], Loss: 0.0457
+Iteration [201/800], Loss: 0.0762
+Iteration [301/800], Loss: 0.0880
+Iteration [401/800], Loss: 0.0811
+Iteration [501/800], Loss: 0.0732
+Iteration [601/800], Loss: 0.0639
+Iteration [701/800], Loss: 0.0573
+**Epoch [157/200], Loss: 0.0541
+
+Iteration [1/800], Loss: 0.1029
+Iteration [101/800], Loss: 0.0525
+Iteration [201/800], Loss: 0.0427
+Iteration [301/800], Loss: 0.0496
+Iteration [401/800], Loss: 0.0455
+Iteration [501/800], Loss: 0.0477
+Iteration [601/800], Loss: 0.0469
+Iteration [701/800], Loss: 0.0481
+**Epoch [158/200], Loss: 0.0464
+
+Iteration [1/800], Loss: 0.0395
+Iteration [101/800], Loss: 0.0284
+Iteration [201/800], Loss: 0.0268
+Iteration [301/800], Loss: 0.0249
+Iteration [401/800], Loss: 0.0259
+Iteration [501/800], Loss: 0.0378
+Iteration [601/800], Loss: 0.0397
+Iteration [701/800], Loss: 0.0373
+**Epoch [159/200], Loss: 0.0361
+
+Iteration [1/800], Loss: 0.1080
+Iteration [101/800], Loss: 0.0417
+Iteration [201/800], Loss: 0.0343
+Iteration [301/800], Loss: 0.0378
+Iteration [401/800], Loss: 0.0388
+Iteration [501/800], Loss: 0.0395
+Iteration [601/800], Loss: 0.0366
+Iteration [701/800], Loss: 0.0361
+**Epoch [160/200], Loss: 0.0392
+
+Iteration [1/800], Loss: 0.1352
+Iteration [101/800], Loss: 0.0487
+Iteration [201/800], Loss: 0.0384
+Iteration [301/800], Loss: 0.0416
+Iteration [401/800], Loss: 0.0393
+Iteration [501/800], Loss: 0.0366
+Iteration [601/800], Loss: 0.0332
+Iteration [701/800], Loss: 0.0317
+**Epoch [161/200], Loss: 0.0310
+
+Iteration [1/800], Loss: 0.0252
+Iteration [101/800], Loss: 0.0217
+Iteration [201/800], Loss: 0.0196
+Iteration [301/800], Loss: 0.0217
+Iteration [401/800], Loss: 0.0434
+Iteration [501/800], Loss: 0.0432
+Iteration [601/800], Loss: 0.0435
+Iteration [701/800], Loss: 0.0432
+**Epoch [162/200], Loss: 0.0418
+
+Iteration [1/800], Loss: 0.0349
+Iteration [101/800], Loss: 0.0488
+Iteration [201/800], Loss: 0.0378
+Iteration [301/800], Loss: 0.0328
+Iteration [401/800], Loss: 0.0321
+Iteration [501/800], Loss: 0.0318
+Iteration [601/800], Loss: 0.0294
+Iteration [701/800], Loss: 0.0289
+**Epoch [163/200], Loss: 0.0294
+
+Iteration [1/800], Loss: 0.0540
+Iteration [101/800], Loss: 0.0392
+Iteration [201/800], Loss: 0.0397
+Iteration [301/800], Loss: 0.0399
+Iteration [401/800], Loss: 0.0542
+Iteration [501/800], Loss: 0.0561
+Iteration [601/800], Loss: 0.0504
+Iteration [701/800], Loss: 0.0459
+**Epoch [164/200], Loss: 0.0445
+
+Iteration [1/800], Loss: 0.0439
+Iteration [101/800], Loss: 0.0324
+Iteration [201/800], Loss: 0.0246
+Iteration [301/800], Loss: 0.0231
+Iteration [401/800], Loss: 0.0259
+Iteration [501/800], Loss: 0.0265
+Iteration [601/800], Loss: 0.0260
+Iteration [701/800], Loss: 0.0261
+**Epoch [165/200], Loss: 0.0262
+
+Iteration [1/800], Loss: 0.0620
+Iteration [101/800], Loss: 0.0197
+Iteration [201/800], Loss: 0.0294
+Iteration [301/800], Loss: 0.0266
+Iteration [401/800], Loss: 0.0288
+Iteration [501/800], Loss: 0.0434
+Iteration [601/800], Loss: 0.0464
+Iteration [701/800], Loss: 0.0447
+**Epoch [166/200], Loss: 0.0422
+
+Iteration [1/800], Loss: 0.0777
+Iteration [101/800], Loss: 0.0222
+Iteration [201/800], Loss: 0.0223
+Iteration [301/800], Loss: 0.0230
+Iteration [401/800], Loss: 0.0258
+Iteration [501/800], Loss: 0.0265
+Iteration [601/800], Loss: 0.0248
+Iteration [701/800], Loss: 0.0251
+**Epoch [167/200], Loss: 0.0252
+
+Iteration [1/800], Loss: 0.1035
+Iteration [101/800], Loss: 0.0481
+Iteration [201/800], Loss: 0.0483
+Iteration [301/800], Loss: 0.0664
+Iteration [401/800], Loss: 0.0575
+Iteration [501/800], Loss: 0.0510
+Iteration [601/800], Loss: 0.0452
+Iteration [701/800], Loss: 0.0439
+**Epoch [168/200], Loss: 0.0426
+
+Iteration [1/800], Loss: 0.0383
+Iteration [101/800], Loss: 0.0221
+Iteration [201/800], Loss: 0.0231
+Iteration [301/800], Loss: 0.0221
+Iteration [401/800], Loss: 0.0211
+Iteration [501/800], Loss: 0.0214
+Iteration [601/800], Loss: 0.0225
+Iteration [701/800], Loss: 0.0296
+**Epoch [169/200], Loss: 0.0307
+
+Iteration [1/800], Loss: 0.1586
+Iteration [101/800], Loss: 0.0504
+Iteration [201/800], Loss: 0.0459
+Iteration [301/800], Loss: 0.0447
+Iteration [401/800], Loss: 0.0411
+Iteration [501/800], Loss: 0.0367
+Iteration [601/800], Loss: 0.0338
+Iteration [701/800], Loss: 0.0355
+**Epoch [170/200], Loss: 0.0335
+
+Iteration [1/800], Loss: 0.0317
+Iteration [101/800], Loss: 0.0224
+Iteration [201/800], Loss: 0.0199
+Iteration [301/800], Loss: 0.0192
+Iteration [401/800], Loss: 0.0185
+Iteration [501/800], Loss: 0.0184
+Iteration [601/800], Loss: 0.0206
+Iteration [701/800], Loss: 0.0220
+**Epoch [171/200], Loss: 0.0222
+
+Iteration [1/800], Loss: 0.0285
+Iteration [101/800], Loss: 0.0156
+Iteration [201/800], Loss: 0.0146
+Iteration [301/800], Loss: 0.0147
+Iteration [401/800], Loss: 0.0193
+Iteration [501/800], Loss: 0.0212
+Iteration [601/800], Loss: 0.0234
+Iteration [701/800], Loss: 0.0286
+**Epoch [172/200], Loss: 0.0299
+
+Iteration [1/800], Loss: 0.0427
+Iteration [101/800], Loss: 0.0301
+Iteration [201/800], Loss: 0.0349
+Iteration [301/800], Loss: 0.0328
+Iteration [401/800], Loss: 0.0283
+Iteration [501/800], Loss: 0.0264
+Iteration [601/800], Loss: 0.0255
+Iteration [701/800], Loss: 0.0276
+**Epoch [173/200], Loss: 0.0412
+
+Iteration [1/800], Loss: 0.2146
+Iteration [101/800], Loss: 0.0579
+Iteration [201/800], Loss: 0.0531
+Iteration [301/800], Loss: 0.0417
+Iteration [401/800], Loss: 0.0359
+Iteration [501/800], Loss: 0.0314
+Iteration [601/800], Loss: 0.0286
+Iteration [701/800], Loss: 0.0275
+**Epoch [174/200], Loss: 0.0271
+
+Iteration [1/800], Loss: 0.0157
+Iteration [101/800], Loss: 0.0177
+Iteration [201/800], Loss: 0.0157
+Iteration [301/800], Loss: 0.0218
+Iteration [401/800], Loss: 0.0255
+Iteration [501/800], Loss: 0.0260
+Iteration [601/800], Loss: 0.0288
+Iteration [701/800], Loss: 0.0314
+**Epoch [175/200], Loss: 0.0307
+
+Iteration [1/800], Loss: 0.0286
+Iteration [101/800], Loss: 0.0224
+Iteration [201/800], Loss: 0.0224
+Iteration [301/800], Loss: 0.0191
+Iteration [401/800], Loss: 0.0208
+Iteration [501/800], Loss: 0.0197
+Iteration [601/800], Loss: 0.0192
+Iteration [701/800], Loss: 0.0208
+**Epoch [176/200], Loss: 0.0205
+
+Iteration [1/800], Loss: 0.1282
+Iteration [101/800], Loss: 0.0404
+Iteration [201/800], Loss: 0.0390
+Iteration [301/800], Loss: 0.0426
+Iteration [401/800], Loss: 0.0379
+Iteration [501/800], Loss: 0.0371
+Iteration [601/800], Loss: 0.0346
+Iteration [701/800], Loss: 0.0338
+**Epoch [177/200], Loss: 0.0369
+
+Iteration [1/800], Loss: 0.0267
+Iteration [101/800], Loss: 0.0409
+Iteration [201/800], Loss: 0.0277
+Iteration [301/800], Loss: 0.0250
+Iteration [401/800], Loss: 0.0257
+Iteration [501/800], Loss: 0.0234
+Iteration [601/800], Loss: 0.0212
+Iteration [701/800], Loss: 0.0195
+**Epoch [178/200], Loss: 0.0185
+
+Iteration [1/800], Loss: 0.0168
+Iteration [101/800], Loss: 0.0125
+Iteration [201/800], Loss: 0.0234
+Iteration [301/800], Loss: 0.0311
+Iteration [401/800], Loss: 0.0402
+Iteration [501/800], Loss: 0.0372
+Iteration [601/800], Loss: 0.0370
+Iteration [701/800], Loss: 0.0334
+**Epoch [179/200], Loss: 0.0307
+
+Iteration [1/800], Loss: 0.0169
+Iteration [101/800], Loss: 0.0120
+Iteration [201/800], Loss: 0.0151
+Iteration [301/800], Loss: 0.0158
+Iteration [401/800], Loss: 0.0167
+Iteration [501/800], Loss: 0.0196
+Iteration [601/800], Loss: 0.0197
+Iteration [701/800], Loss: 0.0208
+**Epoch [180/200], Loss: 0.0208
+
+Iteration [1/800], Loss: 0.0082
+Iteration [101/800], Loss: 0.0120
+Iteration [201/800], Loss: 0.0125
+Iteration [301/800], Loss: 0.0177
+Iteration [401/800], Loss: 0.0197
+Iteration [501/800], Loss: 0.0329
+Iteration [601/800], Loss: 0.0356
+Iteration [701/800], Loss: 0.0329
+**Epoch [181/200], Loss: 0.0332
+
+Iteration [1/800], Loss: 0.0785
+Iteration [101/800], Loss: 0.0149
+Iteration [201/800], Loss: 0.0143
+Iteration [301/800], Loss: 0.0154
+Iteration [401/800], Loss: 0.0156
+Iteration [501/800], Loss: 0.0166
+Iteration [601/800], Loss: 0.0176
+Iteration [701/800], Loss: 0.0214
+**Epoch [182/200], Loss: 0.0213
+
+Iteration [1/800], Loss: 0.0820
+Iteration [101/800], Loss: 0.0258
+Iteration [201/800], Loss: 0.0349
+Iteration [301/800], Loss: 0.0401
+Iteration [401/800], Loss: 0.0347
+Iteration [501/800], Loss: 0.0301
+Iteration [601/800], Loss: 0.0283
+Iteration [701/800], Loss: 0.0277
+**Epoch [183/200], Loss: 0.0260
+
+Iteration [1/800], Loss: 0.0182
+Iteration [101/800], Loss: 0.0106
+Iteration [201/800], Loss: 0.0147
+Iteration [301/800], Loss: 0.0182
+Iteration [401/800], Loss: 0.0202
+Iteration [501/800], Loss: 0.0196
+Iteration [601/800], Loss: 0.0200
+Iteration [701/800], Loss: 0.0195
+**Epoch [184/200], Loss: 0.0187
+
+Iteration [1/800], Loss: 0.0323
+Iteration [101/800], Loss: 0.0164
+Iteration [201/800], Loss: 0.0180
+Iteration [301/800], Loss: 0.0189
+Iteration [401/800], Loss: 0.0178
+Iteration [501/800], Loss: 0.0196
+Iteration [601/800], Loss: 0.0238
+Iteration [701/800], Loss: 0.0280
+**Epoch [185/200], Loss: 0.0279
+
+Iteration [1/800], Loss: 0.0590
+Iteration [101/800], Loss: 0.0217
+Iteration [201/800], Loss: 0.0188
+Iteration [301/800], Loss: 0.0216
+Iteration [401/800], Loss: 0.0221
+Iteration [501/800], Loss: 0.0234
+Iteration [601/800], Loss: 0.0215
+Iteration [701/800], Loss: 0.0203
+**Epoch [186/200], Loss: 0.0198
+
+Iteration [1/800], Loss: 0.0824
+Iteration [101/800], Loss: 0.0220
+Iteration [201/800], Loss: 0.0192
+Iteration [301/800], Loss: 0.0162
+Iteration [401/800], Loss: 0.0160
+Iteration [501/800], Loss: 0.0217
+Iteration [601/800], Loss: 0.0272
+Iteration [701/800], Loss: 0.0254
+**Epoch [187/200], Loss: 0.0244
+
+Iteration [1/800], Loss: 0.0292
+Iteration [101/800], Loss: 0.0225
+Iteration [201/800], Loss: 0.0186
+Iteration [301/800], Loss: 0.0190
+Iteration [401/800], Loss: 0.0176
+Iteration [501/800], Loss: 0.0165
+Iteration [601/800], Loss: 0.0219
+Iteration [701/800], Loss: 0.0229
+**Epoch [188/200], Loss: 0.0229
+
+Iteration [1/800], Loss: 0.0211
+Iteration [101/800], Loss: 0.0154
+Iteration [201/800], Loss: 0.0141
+Iteration [301/800], Loss: 0.0129
+Iteration [401/800], Loss: 0.0149
+Iteration [501/800], Loss: 0.0149
+Iteration [601/800], Loss: 0.0170
+Iteration [701/800], Loss: 0.0176
+**Epoch [189/200], Loss: 0.0179
+
+Iteration [1/800], Loss: 0.0459
+Iteration [101/800], Loss: 0.0285
+Iteration [201/800], Loss: 0.0269
+Iteration [301/800], Loss: 0.0248
+Iteration [401/800], Loss: 0.0231
+Iteration [501/800], Loss: 0.0217
+Iteration [601/800], Loss: 0.0205
+Iteration [701/800], Loss: 0.0209
+**Epoch [190/200], Loss: 0.0226
+
+Iteration [1/800], Loss: 0.0348
+Iteration [101/800], Loss: 0.0227
+Iteration [201/800], Loss: 0.0184
+Iteration [301/800], Loss: 0.0153
+Iteration [401/800], Loss: 0.0172
+Iteration [501/800], Loss: 0.0172
+Iteration [601/800], Loss: 0.0169
+Iteration [701/800], Loss: 0.0168
+**Epoch [191/200], Loss: 0.0161
+
+Iteration [1/800], Loss: 0.0340
+Iteration [101/800], Loss: 0.0178
+Iteration [201/800], Loss: 0.0189
+Iteration [301/800], Loss: 0.0213
+Iteration [401/800], Loss: 0.0192
+Iteration [501/800], Loss: 0.0197
+Iteration [601/800], Loss: 0.0189
+Iteration [701/800], Loss: 0.0187
+**Epoch [192/200], Loss: 0.0179
+
+Iteration [1/800], Loss: 0.0353
+Iteration [101/800], Loss: 0.0121
+Iteration [201/800], Loss: 0.0125
+Iteration [301/800], Loss: 0.0137
+Iteration [401/800], Loss: 0.0152
+Iteration [501/800], Loss: 0.0174
+Iteration [601/800], Loss: 0.0172
+Iteration [701/800], Loss: 0.0177
+**Epoch [193/200], Loss: 0.0229
+
+Iteration [1/800], Loss: 0.1420
+Iteration [101/800], Loss: 0.0293
+Iteration [201/800], Loss: 0.0212
+Iteration [301/800], Loss: 0.0175
+Iteration [401/800], Loss: 0.0181
+Iteration [501/800], Loss: 0.0192
+Iteration [601/800], Loss: 0.0189
+Iteration [701/800], Loss: 0.0186
+**Epoch [194/200], Loss: 0.0183
+
+Iteration [1/800], Loss: 0.0354
+Iteration [101/800], Loss: 0.0155
+Iteration [201/800], Loss: 0.0161
+Iteration [301/800], Loss: 0.0152
+Iteration [401/800], Loss: 0.0140
+Iteration [501/800], Loss: 0.0137
+Iteration [601/800], Loss: 0.0131
+Iteration [701/800], Loss: 0.0127
+**Epoch [195/200], Loss: 0.0134
+
+Iteration [1/800], Loss: 0.0251
+Iteration [101/800], Loss: 0.0425
+Iteration [201/800], Loss: 0.0410
+Iteration [301/800], Loss: 0.0358
+Iteration [401/800], Loss: 0.0329
+Iteration [501/800], Loss: 0.0287
+Iteration [601/800], Loss: 0.0280
+Iteration [701/800], Loss: 0.0260
+**Epoch [196/200], Loss: 0.0244
+
+Iteration [1/800], Loss: 0.0363
+Iteration [101/800], Loss: 0.0112
+Iteration [201/800], Loss: 0.0163
+Iteration [301/800], Loss: 0.0192
+Iteration [401/800], Loss: 0.0172
+Iteration [501/800], Loss: 0.0160
+Iteration [601/800], Loss: 0.0155
+Iteration [701/800], Loss: 0.0149
+**Epoch [197/200], Loss: 0.0146
+
+Iteration [1/800], Loss: 0.0222
+Iteration [101/800], Loss: 0.0161
+Iteration [201/800], Loss: 0.0375
+Iteration [301/800], Loss: 0.0539
+Iteration [401/800], Loss: 0.0483
+Iteration [501/800], Loss: 0.0428
+Iteration [601/800], Loss: 0.0374
+Iteration [701/800], Loss: 0.0336
+**Epoch [198/200], Loss: 0.0315
+
+Iteration [1/800], Loss: 0.0092
+Iteration [101/800], Loss: 0.0159
+Iteration [201/800], Loss: 0.0137
+Iteration [301/800], Loss: 0.0135
+Iteration [401/800], Loss: 0.0144
+Iteration [501/800], Loss: 0.0151
+Iteration [601/800], Loss: 0.0148
+Iteration [701/800], Loss: 0.0140
+**Epoch [199/200], Loss: 0.0138
+
+Iteration [1/800], Loss: 0.0122
+Iteration [101/800], Loss: 0.0127
+Iteration [201/800], Loss: 0.0148
+Iteration [301/800], Loss: 0.0164
+Iteration [401/800], Loss: 0.0169
+Iteration [501/800], Loss: 0.0200
+Iteration [601/800], Loss: 0.0192
+Iteration [701/800], Loss: 0.0191
+**Epoch [200/200], Loss: 0.0181
+
+모델 저장 완료: /home/sophie/Desktop/minseok/GPS-Gaussian/result_parameter/result.pth
+break load img
+Predicted Intrinsic Matrix saved at: parameter_test_output/pred_intrinsic.npy
+Predicted Extrinsic Matrix saved at: parameter_test_output/pred_extrinsic.npy

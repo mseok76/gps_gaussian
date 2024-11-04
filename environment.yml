@@ -1,4 +1,4 @@
-name: gps_gaussian
+name: gps
 channels:
   - pytorch
   - nvidia

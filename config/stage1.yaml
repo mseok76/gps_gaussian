@@ -10,7 +10,7 @@ dataset:
   source_id: [0, 1]
   src_res: 1024
   use_processed_data: True
-  data_root: 'PATH/TO/RENDER_DATA'
+  data_root: /home/sophie/Desktop/minseok/gps_dataset/render_data #'PATH/TO/RENDER_DATA'
 
 raft:
   mixed_precision: False

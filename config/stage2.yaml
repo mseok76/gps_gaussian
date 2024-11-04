@@ -1,10 +1,10 @@
-name: 'GPS-GS_stage2'
+name: 'Third_Train'
 
-stage1_ckpt: 'PATH/TO/GPS-GS_stage1_final.pth'
-restore_ckpt: None
+stage1_ckpt: /home/sophie/Desktop/minseok/gps_dataset/GPS-GS_stage1_final.pth #'PATH/TO/GPS-GS_stage1_final.pth'
+restore_ckpt: /home/sophie/Desktop/minseok/GPS-Gaussian/experiments/stage2_second_0928/ckpt/stage2_second_latest.pth
 lr: 0.0002
 wdecay: 1e-5
-batch_size: 2
+batch_size: 1
 num_steps: 100000
 
 dataset:
@@ -14,7 +14,7 @@ dataset:
   src_res: 1024
   use_hr_img: True
   use_processed_data: True
-  data_root: 'PATH/TO/RENDER_DATA'
+  data_root: /home/sophie/Desktop/minseok/gps_dataset/render_data #'PATH/TO/RENDER_DATA'
 
 raft:
   mixed_precision: True
@@ -29,5 +29,5 @@ gsnet:
   parm_head_dim: 32
 
 record:
-  loss_freq: 5000
-  eval_freq: 5000
+  loss_freq: 1000
+  eval_freq: 1000

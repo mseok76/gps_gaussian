@@ -2,3 +2,8 @@
 /experiments
 /test_out
 /interp_out
+*.pth
+*.pth
+*.jpg
+*.zip
+*.npy

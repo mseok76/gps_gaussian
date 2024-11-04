@@ -23,6 +23,7 @@ from torch.utils.data import DataLoader
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
+import time
 
 class Trainer:
     def __init__(self, cfg_file):
@@ -55,6 +56,8 @@ class Trainer:
         self.scaler = GradScaler(enabled=self.cfg.raft.mixed_precision)
 
     def train(self):
+        print("Start Train")
+        start_time = time.time()
         for _ in tqdm(range(self.total_steps, self.cfg.num_steps)):
             self.optimizer.zero_grad()
             data = self.fetch_data(phase='train')
@@ -70,10 +73,13 @@ class Trainer:
             Ll1 = l1_loss(render_novel, gt_novel)
             Lssim = 1.0 - ssim(render_novel, gt_novel)
             loss = 1.0 * flow_loss + 0.8 * Ll1 + 0.2 * Lssim
+            if self.total_steps and self.total_steps % 200 == 0:
+                torch.cuda.empty_cache()
 
             if self.total_steps and self.total_steps % self.cfg.record.loss_freq == 0:
                 self.logger.writer.add_scalar(f'lr', self.optimizer.param_groups[0]['lr'], self.total_steps)
                 self.save_ckpt(save_path=Path('%s/%s_latest.pth' % (cfg.record.ckpt_path, cfg.name)), show_log=False)
+                
             metrics.update({
                 'l1': Ll1.item(),
                 'ssim': Lssim.item(),
@@ -89,6 +95,9 @@ class Trainer:
             self.scaler.update()
 
             if self.total_steps and self.total_steps % self.cfg.record.eval_freq == 0:
+                end_time = time.time()
+                print(f"Time for 1 eval freq : {end_time - start_time :.5f} sec")
+                start_time = time.time()
                 self.model.eval()
                 self.run_eval()
                 self.model.train()
@@ -136,6 +145,7 @@ class Trainer:
         val_psnr = np.round(np.mean(np.array(psnr_list)), 4)
         logging.info(f"Validation Metrics ({self.total_steps}): epe {val_epe}, 1pix {val_one_pix}, psnr {val_psnr}")
         self.logger.write_dict({'val_epe': val_epe, 'val_1pix': val_one_pix, 'val_psnr': val_psnr}, write_step=self.total_steps)
+        print(f"val_epe': {val_epe}, 'val_1pix': {val_one_pix}, 'val_psnr': {val_psnr}, write_step: {self.total_steps}\n")
         torch.cuda.empty_cache()
 
     def fetch_data(self, phase):
@@ -208,3 +218,4 @@ if __name__ == '__main__':
 
     trainer = Trainer(cfg)
     trainer.train()
+    time.strftime('%Y.%m.%d - %H:%M:%S')
