@@ -3,6 +3,7 @@ import cv2
 import os
 from pathlib import Path
 import math
+import random
 
 def save(pid, data_id, vid, save_path, extr, intr, img, mask):
     # img_save_path = os.path.join(save_path, 'img', data_id, '%03d' % pid)
@@ -51,44 +52,38 @@ def calculate_intrinsic(res):
     ])
     return intrinsic
 
-def calculate_extrinsic(angle, dis, look_at_center):
-    ori_vec = np.array([0, 0, dis])
-    rotate = np.matmul(rotationY(math.radians(angle)), rotationX(math.radians(-8)))
-    cam_pos = look_at_center + np.matmul(rotate, ori_vec)
-    target = look_at_center
-    zaxis = (cam_pos - target) / np.linalg.norm(cam_pos - target)
-    xaxis = np.cross(np.array([0, 1, 0]), zaxis)
-    xaxis /= np.linalg.norm(xaxis)
-    yaxis = np.cross(zaxis, xaxis)
-    extrinsic = np.eye(4)
-    extrinsic[:3, :3] = np.vstack([xaxis, yaxis, zaxis]).T
-    extrinsic[:3, 3] = -np.matmul(extrinsic[:3, :3], cam_pos)
-    return extrinsic[:3]
-
-# def calculate_extrinsic(angle, dis, look_at_center, height = 1.0):
-#     """extrinsic parameter 계산 함수"""
-#     # 카메라 초기 위치 벡터 설정 (카메라는 z축 방향으로 dis 만큼 떨어짐)
-#     ori_vec = np.array([0, height, dis])
-    
-#     # Y축을 기준으로 회전 행렬 생성
-#     rotate = rotationY(math.radians(angle))
-    
-#     # 회전 행렬을 적용하여 카메라 위치 계산
+# def calculate_extrinsic(angle, dis, look_at_center):
+#     ori_vec = np.array([0, 0, dis])
+#     rotate = np.matmul(rotationY(math.radians(angle)), rotationX(math.radians(-8)))
 #     cam_pos = look_at_center + np.matmul(rotate, ori_vec)
-    
-#     # 카메라가 바라보는 방향 (look_at_center 기준으로 방향 벡터 계산)
 #     target = look_at_center
 #     zaxis = (cam_pos - target) / np.linalg.norm(cam_pos - target)
 #     xaxis = np.cross(np.array([0, 1, 0]), zaxis)
 #     xaxis /= np.linalg.norm(xaxis)
 #     yaxis = np.cross(zaxis, xaxis)
-    
-#     # extrinsic matrix 생성
 #     extrinsic = np.eye(4)
 #     extrinsic[:3, :3] = np.vstack([xaxis, yaxis, zaxis]).T
 #     extrinsic[:3, 3] = -np.matmul(extrinsic[:3, :3], cam_pos)
-    
 #     return extrinsic[:3]
+
+def calculate_extrinsic(angle, dis, look_at_center):
+    # 객체와의 거리를 유지하면서 특정 각도(angle)로 회전한 카메라 위치 계산
+    ori_vec = np.array([0, 0, dis])  # 카메라 초기 위치 벡터 (z 방향으로 거리 dis 만큼 떨어짐)
+    rotate = np.matmul(rotationY(math.radians(angle)), rotationX(math.radians(0)))  # x축 회전 제거하고 y축으로만 회전
+    cam_pos = look_at_center + np.matmul(rotate, ori_vec)  # 회전 후 카메라 위치 계산
+
+    # 카메라 방향 설정 (객체의 중심을 바라봄)
+    target = look_at_center
+    zaxis = (cam_pos - target) / np.linalg.norm(cam_pos - target)  # 카메라가 바라보는 방향의 z축
+    xaxis = np.cross(np.array([0, 1, 0]), zaxis)  # y축과 z축의 외적을 통해 x축 계산
+    xaxis /= np.linalg.norm(xaxis)  # 단위 벡터로 정규화
+    yaxis = np.cross(zaxis, xaxis)  # z축과 x축의 외적을 통해 y축 계산
+
+    # Extrinsic 행렬 생성
+    extrinsic = np.eye(4)
+    extrinsic[:3, :3] = np.vstack([xaxis, yaxis, zaxis]).T  # 회전 행렬 설정
+    extrinsic[:3, 3] = -np.matmul(extrinsic[:3, :3], cam_pos)  # 평행 이동 벡터 설정
+    return extrinsic[:3]  # 3x4 형태로 반환
 
 def generate_mask(img):
     # 이미지를 흑백으로 변환
@@ -106,16 +101,17 @@ def generate_mask(img):
 
     return mask_3d
 
-def render_images(data_path, save_path, cam_nums=16, res=(1024, 1024), dis=1.0):
+def render_images(data_path, save_path, cam_nums=16, res=(1024, 1024), dis=2.2):
     data_folders = sorted(os.listdir(os.path.join(data_path, 'img')))
     intrinsic = calculate_intrinsic(res)
     look_at_center = np.array([0, 0.85, 0])
     
     degree_interval = 360 / cam_nums
-    angle_list1 = list(range(360 - int(degree_interval // 2), 360))
-    angle_list2 = list(range(0, int(degree_interval // 2)))
-    angle_list = angle_list1 + angle_list2
-    angle_base = np.random.choice(angle_list, 1)[0]
+    # angle_list1 = list(range(360 - int(degree_interval // 2), 360))
+    # angle_list2 = list(range(0, int(degree_interval // 2)))
+    # angle_list = angle_list1 + angle_list2
+    # angle_base = np.random.choice(angle_list, 1)[0]
+    angle_base = 350
 
     for data_id in data_folders:
         img_folder_path = os.path.join(data_path, 'img', data_id)
@@ -134,6 +130,7 @@ def render_images(data_path, save_path, cam_nums=16, res=(1024, 1024), dis=1.0):
             save(pid, data_id, pid, save_path, extr, intrinsic, img, mask)
 
 if __name__ == '__main__':
+    random.seed(42)
     data_path = '../gps_dataset/test_data'
     save_path = '../gps_dataset/processed_data'
     render_images(data_path, save_path)

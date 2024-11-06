@@ -17,6 +17,7 @@ from lib.GaussianRender import pts2render
 import torch
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
+import random
 
 
 class StereoHumanRender:
@@ -65,6 +66,7 @@ class StereoHumanRender:
 
 
 if __name__ == '__main__':
+    random.seed(42)
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s')
     parser = argparse.ArgumentParser()
