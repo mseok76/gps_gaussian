@@ -114,6 +114,8 @@ class StereoHumanDataset(Dataset):
         self.extr_path = os.path.join(self.data_root, 'parm/%s/%d_extrinsic.npy')
         self.sample_list = sorted(list(os.listdir(os.path.join(self.data_root, 'img'))))
 
+        self.cloth_mask_path = os.path.join(self.data_root, 'select_mask/%s/%d.jpg')
+
         if self.use_processed_data:
             self.local_data_root = os.path.join(opt.data_root, 'rectified_local', self.phase)
             self.local_img_path = os.path.join(self.local_data_root, 'img/%s/%d.jpg')
@@ -195,6 +197,8 @@ class StereoHumanDataset(Dataset):
         intr_name = self.intr_path % (sample_name, source_id)
         extr_name = self.extr_path % (sample_name, source_id)
 
+        cloth_mask_name = self.cloth_mask_path % (sample_name, source_id)
+
         intr, extr = np.load(intr_name), np.load(extr_name)
         mask, pts = None, None
         if hr_img:
@@ -202,6 +206,22 @@ class StereoHumanDataset(Dataset):
             intr[:2] *= 2
         else:
             img = read_img(img_name)
+            if self.phase == 'test':        #testing - apply img mask
+                mask_img = read_img(cloth_mask_name)
+                if mask_img is None:
+                    print("옷 마스킹 이미지를 찾을 수 없습니다.")
+                    exit()
+                gray = cv2.cvtColor(mask_img, cv2.COLOR_BGR2GRAY)
+                _, binary_mask = cv2.threshold(gray, 3, 1, cv2.THRESH_BINARY)
+                cloth_mask = (np.clip(binary_mask, 0, 1) * 255.0 + 0.5).astype(np.uint8)
+                overlay_color = np.array([0, 0, 255], dtype=np.uint8)
+                alpha = 0.3
+                # img[cloth_mask == 255] = overlay_color
+                overlay = np.full_like(img, overlay_color, dtype=np.uint8)
+                blended = cv2.addWeighted(overlay, alpha, img, 1 - alpha, 0)  # 색상 혼합
+                # 마스킹 영역에만 색상 적용
+                img[cloth_mask == 255] = blended[cloth_mask == 255]
+
         if require_mask:
             mask = read_img(mask_name)
         if require_pts and os.path.exists(depth_name):
@@ -399,6 +419,7 @@ class StereoHumanDataset(Dataset):
         lmain_intr_ori, lmain_extr_ori = view0_data[2], view0_data[3]
         rmain_intr_ori, rmain_extr_ori = view1_data[2], view1_data[3]
         stereo_np = self.get_rectified_stereo_data(main_view_data=view0_data, ref_view_data=view1_data)
+            
         dict_tensor = self.stereo_to_dict_tensor(stereo_np, sample_name)
 
         dict_tensor['lmain']['intr_ori'] = torch.FloatTensor(lmain_intr_ori)

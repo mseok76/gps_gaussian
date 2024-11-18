@@ -45,6 +45,7 @@ class StereoHumanRender:
             render_novel = self.tensor2np(data['novel_view']['img_pred'])
             cv2.imwrite(self.cfg.test_out_path + '/%s_novel.jpg' % (data['name']), render_novel)
 
+
     def tensor2np(self, img_tensor):
         img_np = img_tensor.permute(0, 2, 3, 1)[0].detach().cpu().numpy()
         img_np = img_np * 255

@@ -20,7 +20,7 @@ class RtStereoHumanModel(nn.Module):
         self.img_encoder = UnetExtractor(in_channel=3, encoder_dim=self.cfg.raft.encoder_dims)
         self.raft_stereo = RAFTStereoHuman(self.cfg.raft)
         if self.with_gs_render:
-            self.gs_parm_regresser = GSRegresser(self.cfg, rgb_dim=3, depth_dim=1)
+            self.gs_parm_regresser = GSRegresser(self.cfg, rgb_dim=3, depth_dim=1)      # 3가지 GS parameter 생성
 
     def forward(self, data, is_train=True):
         bs = data['lmain']['img'].shape[0]
