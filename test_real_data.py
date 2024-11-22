@@ -35,6 +35,8 @@ class StereoHumanRender:
     def infer_seqence(self, view_select, ratio=0.5):
         total_frames = len(os.listdir(os.path.join(self.cfg.dataset.test_data_root, 'img')))
         for idx in tqdm(range(total_frames)):
+            # if idx != 2:
+            #     continue
             item = self.dataset.get_test_item(idx, source_id=view_select)
             data = self.fetch_data(item)
             data = get_novel_calib(data, self.cfg.dataset, ratio=ratio, intr_key='intr_ori', extr_key='extr_ori')
@@ -43,13 +45,14 @@ class StereoHumanRender:
                 data = pts2render(data, bg_color=self.cfg.dataset.bg_color)
 
             render_novel = self.tensor2np(data['novel_view']['img_pred'])
-            cv2.imwrite(self.cfg.test_out_path + '/%s_novel.jpg' % (data['name']), render_novel)
+            cv2.imwrite(self.cfg.test_out_path + '/%s_novel_%.1f.jpg' % (data['name'],ratio), render_novel)
 
 
     def tensor2np(self, img_tensor):
         img_np = img_tensor.permute(0, 2, 3, 1)[0].detach().cpu().numpy()
         img_np = img_np * 255
         img_np = img_np[:, :, ::-1].astype(np.uint8)
+        return img_np
         return img_np
 
     def fetch_data(self, data):
@@ -92,4 +95,5 @@ if __name__ == '__main__':
     cfg.freeze()
 
     render = StereoHumanRender(cfg, phase='test')
-    render.infer_seqence(view_select=arg.src_view, ratio=arg.ratio)
+    for ra in range(1):
+        render.infer_seqence(view_select=arg.src_view, ratio=ra+0.1)

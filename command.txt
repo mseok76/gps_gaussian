@@ -65,3 +65,6 @@ scale_maps: <class 'torch.Tensor'>
 opacity_maps: <class 'torch.Tensor'>
 
 testing git
+
+color mix up
+human_loader.py -> Line 209
