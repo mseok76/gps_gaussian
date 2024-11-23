@@ -95,10 +95,13 @@ def read_depth(name):
 
 
 class StereoHumanDataset(Dataset):
-    def __init__(self, opt, phase='train'):
+    def __init__(self, opt,h,s,v, phase='train'):
         self.opt = opt
         self.use_processed_data = opt.use_processed_data
         self.phase = phase
+        self.H = h
+        self.S = s
+        self.V = v
         if self.phase == 'train':
             self.data_root = os.path.join(opt.data_root, 'train')
         elif self.phase == 'val':
@@ -209,33 +212,33 @@ class StereoHumanDataset(Dataset):
 
             #gradio로 출력시 이 위치에서 img는 원본으로 저장
 
-            # if self.phase == 'test':        #testing - apply img mask
-            #     mask_img = read_img(cloth_mask_name)
-            #     if mask_img is not None :
-            #         gray = cv2.cvtColor(mask_img, cv2.COLOR_BGR2GRAY)
-            #         _, binary_mask = cv2.threshold(gray, 1, 255, cv2.THRESH_BINARY)
-            #         # cloth_mask = (np.clip(binary_mask, 0, 1) * 255.0 + 0.5).astype(np.uint8)
-            #         cloth_mask = binary_mask.astype(np.uint8)
+            if self.phase == 'test':        #testing - apply img mask
+                mask_img = read_img(cloth_mask_name)
+                if mask_img is not None :
+                    gray = cv2.cvtColor(mask_img, cv2.COLOR_BGR2GRAY)
+                    _, binary_mask = cv2.threshold(gray, 1, 255, cv2.THRESH_BINARY)
+                    # cloth_mask = (np.clip(binary_mask, 0, 1) * 255.0 + 0.5).astype(np.uint8)
+                    cloth_mask = binary_mask.astype(np.uint8)
 
-            #         # 이미지를 HSV로 변환
-            #         hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+                    # 이미지를 HSV로 변환
+                    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
-            #         # HSV 채널 분리
-            #         h, s, v = cv2.split(hsv)
+                    # HSV 채널 분리
+                    h, s, v = cv2.split(hsv)
 
-            #         # 색상(Hue) 변경 (빨간색 영역은 0도)
-            #         target_hue = 120  # 빨간색
-            #         color_enhance = 110
-            #         bright_enhance = 20
-            #         h = np.where(cloth_mask == 255, target_hue, h)  # 마스크 영역에서만 색상 변경                 #색상
-            #         s = np.where(cloth_mask == 255, np.clip(s*1 + color_enhance, 0, 255).astype(np.uint8), s)     #채도
-            #         v = np.where(cloth_mask == 255, np.clip(v*1 + bright_enhance, 0, 255).astype(np.uint8), v)    #명도
+                    # 색상(Hue) 변경 (빨간색 영역은 0도)
+                    target_hue = self.H  # 빨간색
+                    color_enhance = self.S
+                    bright_enhance = self.V
+                    h = np.where(cloth_mask == 255, target_hue, h)  # 마스크 영역에서만 색상 변경                 #색상
+                    s = np.where(cloth_mask == 255, np.clip(s + color_enhance, 0, 255).astype(np.uint8), s)     #채도
+                    v = np.where(cloth_mask == 255, np.clip(v + bright_enhance, 0, 255).astype(np.uint8), v)    #명도
                     
-            #         # HSV 재합치기
-            #         updated_hsv = cv2.merge([h, s, v])
+                    # HSV 재합치기
+                    updated_hsv = cv2.merge([h, s, v])
 
-            #         # BGR로 변환
-            #         img = cv2.cvtColor(updated_hsv, cv2.COLOR_HSV2BGR)
+                    # BGR로 변환
+                    img = cv2.cvtColor(updated_hsv, cv2.COLOR_HSV2BGR)
 
         if require_mask:
             mask = read_img(mask_name)
