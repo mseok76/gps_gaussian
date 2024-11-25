@@ -111,7 +111,8 @@ def render_images(data_path, save_path, cam_nums=16, res=(1024, 1024), dis=2.2):
     # angle_list2 = list(range(0, int(degree_interval // 2)))
     # angle_list = angle_list1 + angle_list2
     # angle_base = np.random.choice(angle_list, 1)[0]
-    angle_base = 350
+    angle_base = 347
+#custom 2번-345, 1번 347, 3번 347
 
     for data_id in data_folders:
         img_folder_path = os.path.join(data_path, 'img', data_id)
@@ -131,6 +132,6 @@ def render_images(data_path, save_path, cam_nums=16, res=(1024, 1024), dis=2.2):
 
 if __name__ == '__main__':
     random.seed(42)
-    data_path = '../gps_dataset/test_data'
-    save_path = '../gps_dataset/processed_data'
+    data_path = '../gps_dataset/prepare_data'
+    save_path = '../gps_dataset/prepare_data'
     render_images(data_path, save_path)

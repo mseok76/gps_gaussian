@@ -95,7 +95,7 @@ def read_depth(name):
 
 
 class StereoHumanDataset(Dataset):
-    def __init__(self, opt,h,s,v, phase='train'):
+    def __init__(self, opt,h=0,s=0,v=0, phase='train'):
         self.opt = opt
         self.use_processed_data = opt.use_processed_data
         self.phase = phase

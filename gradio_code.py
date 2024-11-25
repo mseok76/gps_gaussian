@@ -60,7 +60,7 @@ class StereoHumanRender:
 
             for i in range(ratio+1):
                 i = round(i/ratio,2)
-                print("----ratio flag, i value = ",i)
+                # print("----ratio flag, i value = ",i)
                 data = get_novel_calib(data, self.cfg.dataset, ratio=i, intr_key='intr_ori', extr_key='extr_ori')
                 with torch.no_grad():
                     data, _, _ = self.model(data, is_train=False)
@@ -136,7 +136,8 @@ if __name__ == "__main__":
     cfg.batch_size = 1
     cfg.dataset.test_data_root = "../gps_dataset/processed_data"
     cfg.dataset.use_processed_data = False
-    cfg.restore_ckpt = "../gps_dataset/GPS-GS_stage2_final.pth"
+    # cfg.restore_ckpt = "../gps_dataset/GPS-GS_stage2_final.pth"
+    cfg.restore_ckpt = "/home/sophie/Desktop/minseok/GPS-Gaussian/experiments/Third_Train_0928/ckpt/Third_Train_final.pth"
     cfg.test_out_path = './test_out'
     Path(cfg.test_out_path).mkdir(exist_ok=True, parents=True)
     cfg.freeze()
@@ -152,13 +153,13 @@ if __name__ == "__main__":
         
 
         # 입력 슬라이드
-        slide1 = gr.Slider(minimum=0, maximum=180, step=1, label="Color: Blue = 0 / Green = 60 / Red = 120", value = 0)
+        slide1 = gr.Slider(minimum=0, maximum=180, step=1, label="색상: Blue = 0 / Green = 60 / Red = 120", value = 0)
         slide2 = gr.Slider(minimum=-255, maximum=255, step=1, label="채도, 선택한 값만큼 기존 값에 추가됨", value = 0)
         slide3 = gr.Slider(minimum=-255, maximum=255, step=1, label="명도, 선택한 값만큼 기존 값에 추가됨", value = 0)
 
         with gr.Row():
             with gr.Column():
-                num = gr.Radio(["Image_1","Image_2","Image_3","Image_4"], label="Select One Image", type="index", value = "Image_1")
+                num = gr.Radio(["Image_1","Image_2","Image_3","Image_4","Image_5","Image_6","Image_7","Image_8"], label="Select One Image", type="index", value = "Image_1")
                 ratio = gr.Radio(["10 Images","20 Images","50 Images","100 Images"], label="Select Ratio of Image", type="index", value = "10 Images")
             # 출력 요소`
             image1_output = gr.Image(label="Input Image 1")

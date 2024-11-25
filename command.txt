@@ -68,3 +68,10 @@ testing git
 
 color mix up
 human_loader.py -> Line 209
+
+
+python test_real_data.py \
+--test_data_root ../gps_dataset/prepare_data \
+--ckpt_path ../gps_dataset/GPS-GS_stage2_final.pth \
+--src_view 0 1 \
+--ratio=0.5
